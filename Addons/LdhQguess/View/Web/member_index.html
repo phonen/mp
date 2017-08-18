@@ -1,0 +1,88 @@
+<extend name="./App/Common/View/default/Base/common.html" />
+<block name="main_content"> <include file="./App/Common/View/default/Public/crumb.html" />
+  <div class="mod">
+    <div class="mod-head">
+      <h3> <include file="./App/Common/View/default/Public/nav.html" /> </h3>
+    </div>
+    <div class="mod-body tab-content">
+      <if condition="$tip">
+        <div class="alert alert-info tip" role="alert">{$tip}</div>
+      </if>
+      <include file="./App/Common/View/default/Public/search.html" />
+      <div class="tab-pane active" id="list">
+        <if condition="$subnav">
+          <ul class="nav nav-tabs">
+            <volist name="subnav" id="vo">
+              <li role="presentation" class="{$vo.class}"><a href="{$vo.url}">{$vo.title}</a></li>
+            </volist>
+          </ul>
+          <br>
+        </if>
+        <div class="table-responsive">
+          <table class="table table-striped" style="width:100%">
+            <thead>
+              <tr>
+                <th >ID</th>
+                <th>OPENID</th>
+                <th>余额</th>
+                <th>佣金</th>
+                <th>注册时间</th>
+                <th>登录ip</th>
+                <th>登录时间</th>
+                <th>登录次数</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody>
+            
+            <volist name="lists" id="vo">
+              <tr>
+                <td >{$vo.id}</td>
+                <td >{$vo.openid}</td>
+                <td>{$vo.moneyx}</td>
+                <td>{$vo.yongjingx}</td>
+                 <td>{:date('m-d H:i:s',$vo['regtime'])}</td>
+                  <td>{$vo.ip}</td>
+                   <td>{:date('m-d H:i:s',$vo['logintime'])}</td>
+                    <td>{$vo.times}</td> 
+                <td ><a  href="{:U('addon/LdhQguess/web/member_edit',array('id'=>$vo['id']))}" class="btn btn-primary btn-sm icon-edit">编辑</a>&nbsp;
+                <a href="javascript:;" rel_id="{$vo.id}" class="<if condition="$vo['lahei']">laheix<else />lahei</if> btn btn-primary btn-sm icon-edit">拉黑</a>&nbsp;
+                </td> 
+              </tr>
+              </volist>
+              
+              
+            </tbody>
+          </table>
+        </div>
+        <div class="pages"> {$Page} </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+$(function(){
+	var url="{:U('addon/LdhQguess/web/member_lahei')}";
+	$('.lahei').click(function(){
+		var idx=$(this).attr('rel_id');
+		$.get(url,{id:idx,v:1},function(res){
+		if(res){
+			location=href='';
+			}
+		},'json');
+		
+		});
+	$('.laheix').click(function(){
+		var idx=$(this).attr('rel_id');
+		$.get(url,{id:idx,v:0},function(res){
+		
+		if(res){ 
+			location=href='';
+			}
+		
+		},'json');
+		
+		});	
+	
+	});
+</script> 
+</block>

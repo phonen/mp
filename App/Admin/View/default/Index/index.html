@@ -1,0 +1,60 @@
+<extend name="./App/Common/View/default/Base/common.html" />
+<block name="style">
+<style type="text/css">
+.mod-body table tbody td{
+    text-align: left; !important;
+}
+</style>
+</block>
+<block name="main_content">
+<div class="row mod-echat-info">
+    <div class="col-md-6">
+        <div class="mod">
+            <div class="mod-head">
+                <h3>
+                    <span class="pull-left">框架信息</span>
+                </h3>
+            </div>
+            <div class="tab-content mod-content">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td>操作系统</td>
+                            <td>{$Think.const.PHP_OS}</td>
+                        </tr>
+                        <tr>
+                            <td>运行环境</td>
+                            <td>{$_SERVER['SERVER_SOFTWARE']}</td>
+                        </tr>
+                        <tr>
+                            <td>MySQL 版本</td>
+                            <php>
+                                $system_info_mysql = M()->query("select version() as v;");
+                            </php>
+                            <td>{$system_info_mysql.0.v}</td>
+                        </tr>
+                        <tr>
+                            <td>ThinkPHP版本</td>
+                            <td>{$Think.VERSION}</td>
+                        </tr>
+                        <tr>
+                            <td>框架版本</td>
+                            <td>{$product_info.version}</td>
+                        </tr>
+                        <tr>
+                            <td>最后更新时间</td>
+                            <td>{$product_info.upgrade_time}</td>
+                        </tr>
+						<tr>
+                            <td>源码发布</td>
+                            <td>资源e站（Zye.cc）</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+     
+</div>
+</block>
