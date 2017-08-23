@@ -128,7 +128,7 @@ class ApiController extends Controller {
 
         if (!$this->get_context()) {
             // 触发未识别回复
-            \Think\Log::write('测试日志信息，这是警告级别，并且实时写入','WARN');
+
             $this->respond_special('unrecognize', $this->message);
         }
         
@@ -180,11 +180,12 @@ class ApiController extends Controller {
      * 资源e站（Zye.cc）
      */
     private function respond_addon($addon, $message) {
-        \Think\Log::write('addonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn' . $this->addon,'WARN');
+
         if (!D('Addons')->is_addon_forbidden($this->addon, $this->mpid)) {
-            \Think\Log::write($addon,'WARN');
+
             $respond = A('Addons://'.$this->addon.'/Respond');
             if (method_exists($respond, 'wechat')) {
+                \Think\Log::write('addon is yes','WARN');
                 $respond->wechat($this->message);
             }
         }
@@ -210,7 +211,7 @@ class ApiController extends Controller {
         $MpRule = D('MpRule');
         $MpAutoReply = D('MpAutoReply');
         $auto_reply_rule = $MpRule->get_keyword_rule($keyword, 'auto_reply');   // 获取自动回复规则
-        \Think\Log::write('十六大开发建设力度开发建设力度开发建设力度开发','WARN');
+
         if ($auto_reply_rule) {                         // 响应自动回复规则
             $reply_id = $auto_reply_rule['reply_id'];
             $auto_reply = $MpAutoReply->get_auto_reply($reply_id);
@@ -267,7 +268,7 @@ class ApiController extends Controller {
 
         $respond_rule = $MpRule->get_keyword_rule($keyword, 'respond');
         if ($respond_rule) {        // 分发消息到插件进行处理
-            \Think\Log::write('插件岁的李开发建设力度开发建设的了','WARN');
+
             $this->addon = $respond_rule['addon'];
             $this->respond_addon($this->addon, $this->message);
             exit();
@@ -301,7 +302,7 @@ class ApiController extends Controller {
                 $this->respond_keyword($keyword);       // 响应关键词
                 break;
             case 'addon':
-                \Think\Log::write('测试日志信息，这是警告级别，并且实时写入000000000','WARN');
+
                 $this->addon = $auto_reply['addon'];    // 分发到插件进行处理
                 $this->respond_addon($this->addon, $this->message);
                 break;

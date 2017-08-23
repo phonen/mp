@@ -14,6 +14,7 @@ class RespondController extends ApiController {
 	 * @param $message array 微信消息数组
 	 */
 	public function wechat($message = array()) {
+        \Think\Log::write($message.'respondddddddddddddddddddddddddddddddd' . $this->addon,'WARN');
 					reply_text($message);
 	}
 }
