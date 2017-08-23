@@ -180,7 +180,9 @@ class ApiController extends Controller {
      * 资源e站（Zye.cc）
      */
     private function respond_addon($addon, $message) {
+        \Think\Log::write('addon' . $this->addon,'WARN');
         if (!D('Addons')->is_addon_forbidden($this->addon, $this->mpid)) {
+            \Think\Log::write($addon,'WARN');
             $respond = A('Addons://'.$this->addon.'/Respond');
             if (method_exists($respond, 'wechat')) {
                 $respond->wechat($this->message);
@@ -284,6 +286,7 @@ class ApiController extends Controller {
             if (method_exists($respond, 'wechat')) {
                 $respond->wechat($this->message);
             }
+            \Think\Log::write('ssssssss','WARN');
         } else {
             $this->in_context = 0;
         }
@@ -295,6 +298,7 @@ class ApiController extends Controller {
                 $this->respond_keyword($keyword);       // 响应关键词
                 break;
             case 'addon':
+                \Think\Log::write('测试日志信息，这是警告级别，并且实时写入000000000','WARN');
                 $this->addon = $auto_reply['addon'];    // 分发到插件进行处理
                 $this->respond_addon($this->addon, $this->message);
                 break;
