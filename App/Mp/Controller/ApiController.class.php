@@ -128,6 +128,7 @@ class ApiController extends Controller {
 
         if (!$this->get_context()) {
             // 触发未识别回复
+            \Think\Log::write('测试日志信息，这是警告级别，并且实时写入','WARN');
             $this->respond_special('unrecognize', $this->message);
         }
         
