@@ -180,7 +180,7 @@ class ApiController extends Controller {
      * 资源e站（Zye.cc）
      */
     private function respond_addon($addon, $message) {
-        \Think\Log::write('addon' . $this->addon,'WARN');
+        \Think\Log::write('addonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn' . $this->addon,'WARN');
         if (!D('Addons')->is_addon_forbidden($this->addon, $this->mpid)) {
             \Think\Log::write($addon,'WARN');
             $respond = A('Addons://'.$this->addon.'/Respond');
@@ -210,6 +210,7 @@ class ApiController extends Controller {
         $MpRule = D('MpRule');
         $MpAutoReply = D('MpAutoReply');
         $auto_reply_rule = $MpRule->get_keyword_rule($keyword, 'auto_reply');   // 获取自动回复规则
+        \Think\Log::write('十六大开发建设力度开发建设力度开发建设力度开发','WARN');
         if ($auto_reply_rule) {                         // 响应自动回复规则
             $reply_id = $auto_reply_rule['reply_id'];
             $auto_reply = $MpAutoReply->get_auto_reply($reply_id);
@@ -266,6 +267,7 @@ class ApiController extends Controller {
 
         $respond_rule = $MpRule->get_keyword_rule($keyword, 'respond');
         if ($respond_rule) {        // 分发消息到插件进行处理
+            \Think\Log::write('插件岁的李开发建设力度开发建设的了','WARN');
             $this->addon = $respond_rule['addon'];
             $this->respond_addon($this->addon, $this->message);
             exit();
@@ -279,6 +281,7 @@ class ApiController extends Controller {
      */
     public function respond_special($type, $message) {
         if (S('context_'.get_openid())) {       // 消息上下文存在
+            \Think\Log::write('测试日志信息，这是警告级别，并且实时写入sssssssssssssssssssss','WARN');
             $this->in_context = 1;
             $this->addon = S('context_'.get_openid());
             $this->addon_settings = D('AddonSetting')->get_addon_settings($this->addon, $this->mpid);
@@ -286,7 +289,7 @@ class ApiController extends Controller {
             if (method_exists($respond, 'wechat')) {
                 $respond->wechat($this->message);
             }
-            \Think\Log::write('ssssssss','WARN');
+
         } else {
             $this->in_context = 0;
         }
