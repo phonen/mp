@@ -35,7 +35,7 @@ class RespondController extends ApiController {
                 reply_text($this->http_post_content($url,$data));
             }
             else {
-                $match = preg_match("/\x{ffe5}.*\x{ffe5}/u",$keyword,$out);
+                $match = preg_match("/[\x{ffe5}\x{300a}].*[\x{ffe5}\x{300a}]/u",$keyword,$out);
                 if($match){
                     // 提交地址
                     $curl='http://www.taokouling.com/index.php?m=api&a=taokoulingjm';
@@ -73,7 +73,7 @@ class RespondController extends ApiController {
                             $data['kw'] = $out[1];
                             $data['openid'] = get_openid();
                             $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=search_temai_by_key_openid';
-                            \Think\Log::write($data['kw'],'WARN');
+//                            \Think\Log::write($data['kw'],'WARN');
                             reply_text($this->http_post_content($url,$data));
 
                         }
