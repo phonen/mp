@@ -42,9 +42,9 @@ class RespondController extends ApiController {
 // 提交数据  格式例子 $data='username='.urlencode('小明').'&password=abc123&text='.urlencode('￥uwXD0YI3GnM￥');
 // 账号密码是淘口令网站的  没有的自己注册一个
                     $kouling = $out[0];
-                    $data='username='.urlencode('pioul').'&password=6t7y8u9i&text='.urlencode($kouling);
+                    $data1='username='.urlencode('pioul').'&password=6t7y8u9i&text='.urlencode($kouling);
 
-                    $rs2=$this->execcurl($curl,true,$data);
+                    $rs2=$this->execcurl($curl,true,$data1);
 // 输出解密后的内容
                     $rsarr = json_decode($rs2,true);
                     $item_url = $rsarr['url'];
