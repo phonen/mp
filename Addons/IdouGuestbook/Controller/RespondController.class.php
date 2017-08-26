@@ -16,34 +16,82 @@ class RespondController extends ApiController {
 	public function wechat($message = array()) {
         $keyword = $message['content'];
 
-
-
-        $pt1 = "/^(taotehui|buyi|yhg)\d{3,4}/";
-
-        $result = $this->query_order($keyword);
-        if($result){
+        $pt = "/\*(\d{16,17})/";
+        $match = preg_match($pt,$keyword);
+        if($match){
             $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=order_json';
             $data['oid'] = substr($keyword,1);
 
             reply_text($this->http_post_content($url,$data));
         }
         else {
-            reply_text("1");
+            $pt = "/^(taotehui|buyi|yhg)\d{3,4}/";
+            $match = preg_match($pt,$keyword);
+            if($match){
+                $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=save_openid';
+                $openid = get_openid();
+                $data['openid'] = $openid;
+                $data['msg'] = $keyword;
+                reply_text($this->http_post_content($url,$data));
+            }
+            else {
+                $match = preg_match("/\x{ffe5}.*\x{ffe5}/u",$keyword,$out);
+                if($match){
+                    // 提交地址
+                    $curl='http://www.taokouling.com/index.php?m=api&a=taokoulingjm';
+// 提交数据  格式例子 $data='username='.urlencode('小明').'&password=abc123&text='.urlencode('￥uwXD0YI3GnM￥');
+// 账号密码是淘口令网站的  没有的自己注册一个
+                    $kouling = $out[0];
+                    $data='username='.urlencode('pioul').'&password=6t7y8u9i&text='.urlencode($kouling);
+
+                    $rs2=$this->execcurl($curl,true,$data);
+// 输出解密后的内容
+                    reply_text($rs2);
+                }
+                else {
+                    $match = preg_match('/https?:\/\/[\w=.?&\/;]+/',$keyword);
+                    if($match){
+
+                        $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=taoke_info_openid';
+                        $data['msg'] = $keyword;
+
+                        $data['openid'] = get_openid();
+
+                        reply_text($this->http_post_content($url,$data));
+                    }
+                    else reply_text("1");
+                }
+
+
+            }
         }
-
-
 
 	}
 
-	protected function query_order($keyword){
-        $pt = "/\*(\d{16,17})/";
-        $result = preg_match($pt,$keyword);
-        return $result;
+
+    protected function execcurl($url,$ispost=false,$data='',$in='utf8',$out='utf8',$cookie='')
+    {
+        $fn = curl_init();
+        curl_setopt($fn, CURLOPT_URL, $url);
+        curl_setopt($fn, CURLOPT_TIMEOUT, 60);
+        curl_setopt($fn, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($fn, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+        curl_setopt($fn, CURLOPT_REFERER, $url);
+        curl_setopt($fn, CURLOPT_HEADER, 0);
+        if($cookie)
+            curl_setopt($fn,CURLOPT_COOKIE,$cookie);
+        if($ispost){
+            curl_setopt($fn, CURLOPT_POST, TRUE);
+            curl_setopt($fn, CURLOPT_POSTFIELDS, $data);
+        }
+        $fm = curl_exec($fn);
+        curl_close($fn);
+        if($in!=$out){
+            $fm = Newiconv($in,$out,$fm);
+        }
+        return $fm;
     }
 
-	protected function proxy_setting() {
-
-    }
 
     protected function http_get_content($url, $cache = false){
         // 定义当前页面请求的cache key
