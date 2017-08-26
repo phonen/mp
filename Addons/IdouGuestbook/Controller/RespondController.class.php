@@ -53,18 +53,18 @@ class RespondController extends ApiController {
                     $data['msg'] = $item_url;
 
                     $data['openid'] = get_openid();
-                    \Think\Log::write($rs2 .$item_url,'WARN');
+
                     reply_text($this->http_post_content($url,$data));
                 }
                 else {
-                    $match = preg_match('/https?:\/\/[\w=.?&\/;]+/',$keyword);
+                    $match = preg_match('/https?:\/\/[\w=.?&\/;%]+/',$keyword,$out);
                     if($match){
 
                         $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=taoke_info_openid';
-                        $data['msg'] = $keyword;
+                        $data['msg'] = $out[0];
 
                         $data['openid'] = get_openid();
-
+                        \Think\Log::write($data['msg'],'WARN');
                         reply_text($this->http_post_content($url,$data));
                     }
                     else reply_text("1");

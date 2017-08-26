@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="1">
+    <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/IdouGuestbook/Controller/RespondController.class.php" afterPath="$PROJECT_DIR$/Addons/IdouGuestbook/Controller/RespondController.class.php" />
     </list>
@@ -28,11 +28,11 @@
       <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/IdouGuestbook/Controller/RespondController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+            <state relative-caret-position="837">
+              <caret line="67" column="73" lean-forward="true" selection-start-line="67" selection-start-column="73" selection-end-line="67" selection-end-column="73" />
               <folding>
-                <marker date="1503716824355" expanded="true" signature="4587:4693" ph="..." />
-                <marker date="1503716824355" expanded="true" signature="6245:6351" ph="..." />
+                <marker date="1503717547778" expanded="true" signature="4593:4699" ph="..." />
+                <marker date="1503717547778" expanded="true" signature="6251:6357" ph="..." />
               </folding>
             </state>
           </provider>
@@ -581,7 +581,7 @@
       <workItem from="1503049627298" duration="878000" />
       <workItem from="1503198942858" duration="15000" />
       <workItem from="1503453588225" duration="9751000" />
-      <workItem from="1503710047922" duration="6754000" />
+      <workItem from="1503710047922" duration="7478000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1503455446836</created>
@@ -688,11 +688,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503716357578</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1">
+      <created>1503716838088</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1503716838088</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17713000" />
+    <option name="totallyTimeSpent" value="18437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -745,8 +752,8 @@
         <state relative-caret-position="459">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1503716824355" expanded="true" signature="4587:4693" ph="..." />
-            <marker date="1503716824355" expanded="true" signature="6245:6351" ph="..." />
+            <marker date="1503717547778" expanded="true" signature="4593:4699" ph="..." />
+            <marker date="1503717547778" expanded="true" signature="6251:6357" ph="..." />
           </folding>
         </state>
       </provider>
@@ -970,11 +977,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/IdouGuestbook/Controller/RespondController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+        <state relative-caret-position="837">
+          <caret line="67" column="73" lean-forward="true" selection-start-line="67" selection-start-column="73" selection-end-line="67" selection-end-column="73" />
           <folding>
-            <marker date="1503716824355" expanded="true" signature="4587:4693" ph="..." />
-            <marker date="1503716824355" expanded="true" signature="6245:6351" ph="..." />
+            <marker date="1503717547778" expanded="true" signature="4593:4699" ph="..." />
+            <marker date="1503717547778" expanded="true" signature="6251:6357" ph="..." />
           </folding>
         </state>
       </provider>
