@@ -185,7 +185,7 @@ class ApiController extends Controller {
 
             $respond = A('Addons://'.$this->addon.'/Respond');
             if (method_exists($respond, 'wechat')) {
-                \Think\Log::write('addon is yes','WARN');
+
                 $respond->wechat($this->message);
             }
         }

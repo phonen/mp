@@ -53,7 +53,7 @@ class RespondController extends ApiController {
                     $data['msg'] = $item_url;
 
                     $data['openid'] = get_openid();
-
+                    \Think\Log::write($item_url,'WARN');
                     reply_text($this->http_post_content($url,$data));
                 }
                 else {
