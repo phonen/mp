@@ -64,10 +64,21 @@ class RespondController extends ApiController {
                         $data['msg'] = $out[0];
 
                         $data['openid'] = get_openid();
-                        \Think\Log::write($data['msg'],'WARN');
+
                         reply_text($this->http_post_content($url,$data));
                     }
-                    else reply_text("1");
+                    else {
+                        $match = preg_match("/\x{627e}(.*)/u",$keyword,$out);
+                        if($match){
+                            $data['kw'] = $out[1];
+                            $data['openid'] = get_openid();
+                            $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=search_temai_by_key_openid';
+                            reply_text($this->http_post_content($url,$data));
+
+                        }
+                        else reply_text("1");
+                    }
+
                 }
 
 
