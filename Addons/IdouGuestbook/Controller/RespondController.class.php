@@ -14,9 +14,33 @@ class RespondController extends ApiController {
 	 * @param $message array 微信消息数组
 	 */
 	public function wechat($message = array()) {
-        \Think\Log::write($message['content'].'respondddddddddddddddddddddddddddddddd' . $this->addon,'WARN');
-					reply_text($message['content']);
+        $keyword = $message['content'];
+
+
+
+        $pt1 = "/^(taotehui|buyi|yhg)\d{3,4}/";
+
+        $result = $this->query_order($keyword);
+        if($result)reply_text(substr($keyword,1));
+        else {
+            reply_text("1");
+        }
+
+
+
 	}
+
+	protected function query_order($keyword){
+        $pt = "/^*(\d{16,17})/";
+        $result = preg_match($pt,$keyword);
+        return $result;
+    }
+
+	protected function proxy_setting() {
+
+    }
+
+
 }
 
 ?>
