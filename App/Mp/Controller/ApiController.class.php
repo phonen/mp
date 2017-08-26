@@ -282,7 +282,7 @@ class ApiController extends Controller {
      */
     public function respond_special($type, $message) {
         if (S('context_'.get_openid())) {       // 消息上下文存在
-            \Think\Log::write('测试日志信息，这是警告级别，并且实时写入sssssssssssssssssssss','WARN');
+
             $this->in_context = 1;
             $this->addon = S('context_'.get_openid());
             $this->addon_settings = D('AddonSetting')->get_addon_settings($this->addon, $this->mpid);
