@@ -31,7 +31,7 @@ class RespondController extends ApiController {
 	}
 
 	protected function query_order($keyword){
-        $pt = "/^*(\d{16,17})/";
+        $pt = "/\*(\d{16,17})/";
         $result = preg_match($pt,$keyword);
         return $result;
     }
