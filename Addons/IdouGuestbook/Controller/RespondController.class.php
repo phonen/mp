@@ -46,7 +46,15 @@ class RespondController extends ApiController {
 
                     $rs2=$this->execcurl($curl,true,$data);
 // 输出解密后的内容
-                    reply_text($rs2);
+                    $rsarr = json_decode($rs2,true);
+                    $item_url = $rsarr['url'];
+
+                    $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=taoke_info_openid';
+                    $data['msg'] = $item_url;
+
+                    $data['openid'] = get_openid();
+
+                    reply_text($this->http_post_content($url,$data));
                 }
                 else {
                     $match = preg_match('/https?:\/\/[\w=.?&\/;]+/',$keyword);
