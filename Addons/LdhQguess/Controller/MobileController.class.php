@@ -228,7 +228,7 @@ class MobileController extends MobileBaseController {
     }
     public function index(){ 
         $setting=get_addon_settings();
-
+        $openid=get_openid();
         if(IS_AJAX && I('post.qy_openid')){
             $dhqguess_user=M('ldhqguess_user');
             $openid=get_openid();
@@ -263,7 +263,7 @@ class MobileController extends MobileBaseController {
 
 
         //$url="http://".$setting['domain4']."/index.php?s=addon/LdhQguess/Mobile/getqyopenid/mpid/".$mpid.'/qy_openid/'.$result['openid'];
-        $url = "http://taotehui.co/?m=Mp";
+        $url = "http://taotehui.co/index.php?m=Mp&openid=" . $openid;
         redirect($url);
  //       $this->display();
     }
