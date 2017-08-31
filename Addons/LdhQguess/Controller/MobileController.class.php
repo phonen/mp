@@ -264,8 +264,8 @@ class MobileController extends MobileBaseController {
 
         //$url="http://".$setting['domain4']."/index.php?s=addon/LdhQguess/Mobile/getqyopenid/mpid/".$mpid.'/qy_openid/'.$result['openid'];
         $url = "http://taotehui.co/index.php?m=Mp&openid=" . $openid;
-        redirect($url);
- //       $this->display();
+        //redirect($url);
+       $this->display();
     }
 
 
