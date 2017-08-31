@@ -72,9 +72,9 @@ class MobileController extends MobileBaseController {
 
     public function getopenid(){
        /* */
-        $addon_settings=get_addon_settings();
-        $mp_info = get_mp_info();
-        $mpid = get_mpid();
+        $addon_settings=get_addon_settings();\Think\Log::write("setttttttttttttt:");
+        $mp_info = get_mp_info();\Think\Log::write("getopenid00000:" );
+        $mpid = get_mpid();\Think\Log::write("getopenid1111111111100000:");
         $openid = get_openid();
         \Think\Log::write("getopenid00000:" . $openid);
         $token = get_token();
