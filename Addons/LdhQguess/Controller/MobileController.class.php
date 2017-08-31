@@ -29,7 +29,7 @@ class MobileController extends MobileBaseController {
     }
     protected function login(){
 
-        if(get_openid()){ \Think\Log::write("login openid");return true;}
+        if(get_openid()){ return true;}
         $url=get_current_url();
         $setting=get_addon_settings();
         $mpid=get_mpid();
@@ -262,8 +262,10 @@ class MobileController extends MobileBaseController {
         $this->assign('xuanchuan1',$setting['xuanchuan1']);
 
 
-
-        $this->display();
+        //$url="http://".$setting['domain4']."/index.php?s=addon/LdhQguess/Mobile/getqyopenid/mpid/".$mpid.'/qy_openid/'.$result['openid'];
+        $url = "http://taotehui.co/?m=Mp";
+        redirect($url);
+ //       $this->display();
     }
 
 
