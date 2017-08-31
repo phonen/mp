@@ -76,7 +76,7 @@ class MobileController extends MobileBaseController {
         $mpid = get_mpid();
         $openid = get_openid();
         $token = get_token();
-        //ldh_log($_SERVER,'aa.php');
+        ldh_log($_SERVER,'aa.php');
         if (empty($openid) && is_wechat_browser() && $mp_info['appid'] && $mp_info['appsecret'] && $mp_info['type'] == 4) {     // 通过网页授权拉取用户标识
             $wechatObj = get_wechat_obj();
             if ($wechatObj->checkAuth($mp_info['appid'], $mp_info['appsecret'])) {              // 公众号有网页授权的权限
@@ -86,7 +86,7 @@ class MobileController extends MobileBaseController {
                 }else{
                     $redirect_url = $wechatObj->getOauthRedirect($callback);        // 网页授权跳转地址
                 }
-                \Think\Log::write($redirect_url);
+
                 if (!I('code')) {                               // 授权跳转第一步
                     redirect($redirect_url);
                 } elseif (I('code')) {                          // 授权跳转第二步
