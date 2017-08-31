@@ -2,6 +2,8 @@
 
 namespace Addons\LdhQguess\Controller;
 use Mp\Controller\MobileBaseController;
+use Think\Log;
+use Think\Think;
 use WechatSdk\Wechat;
 /**
  * QQ在线竞猜移动端控制器
@@ -84,6 +86,7 @@ class MobileController extends MobileBaseController {
                 }else{
                     $redirect_url = $wechatObj->getOauthRedirect($callback);        // 网页授权跳转地址
                 }
+                \Think\Log::write($redirect_url);
                 if (!I('code')) {                               // 授权跳转第一步
                     redirect($redirect_url);
                 } elseif (I('code')) {                          // 授权跳转第二步
