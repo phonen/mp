@@ -30,7 +30,7 @@ class MobileController extends MobileBaseController {
 
     }
     protected function login(){
-        \Think\Log::write("login:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" );
+
         if(get_openid()){ return true;}
         $url=get_current_url();
         $setting=get_addon_settings();
