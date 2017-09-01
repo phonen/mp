@@ -282,13 +282,13 @@ return true;
     public function _empty(){
         $setting=get_addon_settings();
         if( $_SERVER['HTTP_HOST']!=$setting['domain4'] && $_SERVER['HTTP_HOST']!=$setting['domain5'] && $_SERVER['HTTP_HOST']!=$setting['domain3']){
-            ldh_log($_SERVER,"aa.php");
+
             exit;
 
         }
 
         $actions=ACTION_NAME  ;
-        ldh_log($actions,"aa.php");
+
         $model=explode('_',$actions);
         if(count($model)>1){
             $controller=$model[0]?$model[0]:die('谁1？');
@@ -302,7 +302,7 @@ return true;
             $class='\Addons\LdhQguess\Controller\Mobile\\'.$controller.'Controller';
             if(class_exists($class)) {
                 $news             =   new $class();
-                ldh_log($action,"aa.php");
+
                 $news->$action();
             }else{
                 exit('是谁3？');
