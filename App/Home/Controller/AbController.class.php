@@ -15,6 +15,7 @@ class AbController extends Controller {
 	}
 	public function a(){
 		//推广域名进来
+        ldh_log("aaaaaaaaaaa","aa.php");
 		$mpid=I('get.mpid','','int');
 		$pid=I('get.pid','','int');
 		$map['mpid'] = $mpid;
