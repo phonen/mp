@@ -63,7 +63,7 @@ class MobileBaseController extends Controller {
         $_G['openid'] = get_openid();
         $_G['mpid'] = get_mpid();
 
-        ldh_log($_G,"aa.php");
+
         // 感谢 @苍竹先生<593485230@qq.com> 提供的处理浏览器openid问题的解决方案
         preg_match('/\/openid[\/|=]([_\-0-9A-Za-z]*+)/', $_G['current_url'], $m);		// 带上openid的参数字符串
 
