@@ -238,7 +238,7 @@ class MobileController extends MobileBaseController {
         $openid=get_openid();
 
         if(IS_AJAX && I('post.qy_openid')){
-            ldh_log($_POST,'aa.php');
+
             $dhqguess_user=M('ldhqguess_user');
             $openid=get_openid();
             $mpid=get_mpid();
@@ -266,7 +266,7 @@ class MobileController extends MobileBaseController {
         }
 
 
-        ldh_log($_GET,'aa.php');
+
         $this->assign('kefu',$setting['kefu']);
         $this->assign('yjimg',$setting['yjimg']);
         $this->assign('xuanchuan1',$setting['xuanchuan1']);
