@@ -26,7 +26,7 @@ class MobileController extends MobileBaseController {
             $this->login();
             $this->lahei();//拉黑
         }
-ldh_log($_G,"aa.php");
+
 
     }
     protected function login(){
