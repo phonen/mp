@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" afterPath="$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" afterPath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="189" column="39" lean-forward="false" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
+            <state relative-caret-position="-3092">
+              <caret line="191" column="9" lean-forward="true" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -64,6 +74,7 @@
       <find>getoauth</find>
       <find>Hook</find>
       <find>add_hook</find>
+      <find>get_addon_settings</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,8 +87,8 @@
         <option value="$PROJECT_DIR$/App/Mp/Controller/ApiController.class.php" />
         <option value="$PROJECT_DIR$/Addons/IdouGuestbook/Controller/RespondController.class.php" />
         <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/RespondController.class.php" />
-        <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" />
         <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" />
+        <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" />
       </list>
     </option>
   </component>
@@ -951,7 +962,7 @@
       <workItem from="1503710047922" duration="8754000" />
       <workItem from="1503719911278" duration="3256000" />
       <workItem from="1504101609133" duration="3930000" />
-      <workItem from="1504112109991" duration="23362000" />
+      <workItem from="1504112109991" duration="23733000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1503455446836</created>
@@ -1198,11 +1209,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504258682622</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="1">
+      <created>1504268276767</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1504268276767</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50261000" />
+    <option name="totallyTimeSpent" value="50632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1873" height="1212" extended-state="6" />
@@ -1594,14 +1612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="96" column="8" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Common/Controller/CommonController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1654,8 +1664,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="189" column="39" lean-forward="false" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
+        <state relative-caret-position="-3092">
+          <caret line="191" column="9" lean-forward="true" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
           <folding />
         </state>
       </provider>

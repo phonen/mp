@@ -88,13 +88,14 @@ class userController extends MobileController {
         $settings=get_addon_settings();
         $domain1=$settings['domain1'];
         $addon_name=get_addon();
+        ldh_log($settings,'aa.php');
         $uid=session($addon_name.'_uid');
         $res['data']="http://".$domain1."/ab_a/".get_mpid()."/".$uid;
         $res['success']=true;
         $res['timeout']=false;
         $res['overdue']=false;
         $res['currentDate']=get_microtime();
-        ldh_log($res,'aa.php');
+
         $this->ajaxReturn($res);
 
     }
