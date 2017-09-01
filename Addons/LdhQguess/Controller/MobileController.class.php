@@ -15,8 +15,7 @@ class MobileController extends MobileBaseController {
     public function _initialize()
     {
         parent::_initialize();
-        ldh_log($_SERVER,'aa.php');
-        ldh_log($_GET,'aa.php');
+
         $setting=get_addon_settings();
         if($_SERVER['HTTP_HOST']!=$setting['domain3'] && $_SERVER['HTTP_HOST']!=$setting['domain5'] &&
             $_SERVER['HTTP_HOST']!=$setting['domain4'] && $_SERVER['HTTP_HOST']!=$setting['qy_domain']){
@@ -236,7 +235,9 @@ class MobileController extends MobileBaseController {
     public function index(){ 
         $setting=get_addon_settings();
         $openid=get_openid();
+        ldh_log($_SERVER,'aa.php');
         if(IS_AJAX && I('post.qy_openid')){
+            ldh_log($_POST,'aa.php');
             $dhqguess_user=M('ldhqguess_user');
             $openid=get_openid();
             $mpid=get_mpid();
@@ -264,6 +265,7 @@ class MobileController extends MobileBaseController {
         }
 
 
+        ldh_log($_GET,'aa.php');
         $this->assign('kefu',$setting['kefu']);
         $this->assign('yjimg',$setting['yjimg']);
         $this->assign('xuanchuan1',$setting['xuanchuan1']);
