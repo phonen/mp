@@ -15,7 +15,7 @@ class MobileController extends MobileBaseController {
     public function _initialize()
     {
         parent::_initialize();
-
+        ldh_log($_SERVER,'aa.php');
         $setting=get_addon_settings();
         if($_SERVER['HTTP_HOST']!=$setting['domain3'] && $_SERVER['HTTP_HOST']!=$setting['domain5'] &&
             $_SERVER['HTTP_HOST']!=$setting['domain4'] && $_SERVER['HTTP_HOST']!=$setting['qy_domain']){
@@ -64,7 +64,7 @@ class MobileController extends MobileBaseController {
             $pid=I('get.pid','','int');
             $domain3=$setting['domain3'];
             $url="http://".$domain3."/addon/LdhQguess/Mobile/getopenid/mpid/".$mpid."/pid/".$pid;
-            \Think\Log::write($url );
+
             redirect($url);exit;
         }
 
@@ -72,14 +72,14 @@ class MobileController extends MobileBaseController {
 
     public function getopenid(){
        /* */
-        $addon_settings=get_addon_settings();\Think\Log::write("setttttttttttttt:");
-        $mp_info = get_mp_info();\Think\Log::write("getopenid00000:" );
-        $mpid = get_mpid();\Think\Log::write("getopenid1111111111100000:");
+        $addon_settings=get_addon_settings();
+        $mp_info = get_mp_info();
+        $mpid = get_mpid();
         $openid = get_openid();
-        \Think\Log::write("getopenid00000:" . $openid);
+
         $token = get_token();
         ldh_log($_SERVER,'aa.php');
-        \Think\Log::write("getopenid11111:" . $openid);
+
         if (empty($openid) && is_wechat_browser() && $mp_info['appid'] && $mp_info['appsecret'] && $mp_info['type'] == 4) {     // 通过网页授权拉取用户标识
             $wechatObj = get_wechat_obj();
             if ($wechatObj->checkAuth($mp_info['appid'], $mp_info['appsecret'])) {              // 公众号有网页授权的权限
