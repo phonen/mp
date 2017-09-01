@@ -30,7 +30,7 @@ class MobileController extends MobileBaseController {
 
     }
     protected function login(){
-return true;
+
         if(get_openid()){ return true;}
         $url=get_current_url();
         $setting=get_addon_settings();
@@ -78,7 +78,7 @@ return true;
         $openid = get_openid();
 
         $token = get_token();
-        ldh_log($_SERVER,'aa.php');
+
 
         if (empty($openid) && is_wechat_browser() && $mp_info['appid'] && $mp_info['appsecret'] && $mp_info['type'] == 4) {     // 通过网页授权拉取用户标识
             $wechatObj = get_wechat_obj();
@@ -187,7 +187,7 @@ return true;
         $lahei=$User->where($where)->getField('lahei');
         if($lahei){
             $setting=get_addon_settings();
-            ldh_log($setting,"aa.php");
+
             redirect($setting['qqurl']);exit;
         }
 
@@ -236,7 +236,7 @@ return true;
     public function index(){ 
         $setting=get_addon_settings();
         $openid=get_openid();
-        ldh_log($_SERVER,'aa.php');
+
         if(IS_AJAX && I('post.qy_openid')){
             ldh_log($_POST,'aa.php');
             $dhqguess_user=M('ldhqguess_user');
