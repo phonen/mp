@@ -187,6 +187,7 @@ class MobileController extends MobileBaseController {
         $lahei=$User->where($where)->getField('lahei');
         if($lahei){
             $setting=get_addon_settings();
+            ldh_log($setting,"aa.php");
             redirect($setting['qqurl']);exit;
         }
 
