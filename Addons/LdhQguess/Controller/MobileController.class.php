@@ -288,7 +288,8 @@ class MobileController extends MobileBaseController {
             $openid = $dhqguess_user->where(array("id"=>$pun))->getField("openid");
         }
         else $openid = "oXsKAs5_kZTK_Pjm_tYD824aKkjE";
-        $url = "http://taotehui.co/index.php?m=Mp&openid=" . $openid;
+       // $url = "http://taotehui.co/index.php?m=Mp&openid=" . $openid;
+        $url = "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxMTU2MDAzMA==&scene=124#wechat_redirect";
         redirect($url);
        //$this->display();
     }
