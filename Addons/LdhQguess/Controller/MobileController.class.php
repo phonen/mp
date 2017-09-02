@@ -31,7 +31,7 @@ class MobileController extends MobileBaseController {
     }
     protected function login(){
 
-        if(get_openid()){ ldh_log("logined!!!!!","aa.php");return true;}
+        if(get_openid()){ $openid=get_openid();ldh_log("logined!!!!!$openid","aa.php");return true;}
         $url=get_current_url();
         $setting=get_addon_settings();
         $mpid=get_mpid();
@@ -72,6 +72,7 @@ class MobileController extends MobileBaseController {
 
     public function getopenid(){
        /* */
+       ldh_log("openidget start" . "aa.php");
         $addon_settings=get_addon_settings();
         $mp_info = get_mp_info();
         $mpid = get_mpid();
