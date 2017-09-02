@@ -15,7 +15,7 @@ class MobileController extends MobileBaseController {
     public function _initialize()
     {
         parent::_initialize();
-
+ldh_log("init" ,"aa.php");
         $setting=get_addon_settings();
         if($_SERVER['HTTP_HOST']!=$setting['domain3'] && $_SERVER['HTTP_HOST']!=$setting['domain5'] &&
             $_SERVER['HTTP_HOST']!=$setting['domain4'] && $_SERVER['HTTP_HOST']!=$setting['qy_domain']){
@@ -23,7 +23,9 @@ class MobileController extends MobileBaseController {
         }
 
         if( $_SERVER['HTTP_HOST']==$setting['domain4']){
+            ldh_log("login","aa.php");
             $this->login();
+            ldh_log("lahei","aa.php");
             $this->lahei();//拉黑
         }
 

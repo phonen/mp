@@ -38,8 +38,8 @@
       <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="74" column="45" lean-forward="false" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+            <state relative-caret-position="729">
+              <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
               <folding>
                 <element signature="e#46#85#0#PHP" expanded="true" />
               </folding>
@@ -102,13 +102,13 @@
       <find>session(</find>
       <find>function get_addon</find>
       <find>function get_openid</find>
-      <find>get_addon_settings</find>
       <find>get_mp_info</find>
       <find>getOauth</find>
       <find>checkAuth</find>
       <find>function checkAuth</find>
-      <find>session</find>
       <find>get_mpid</find>
+      <find>session</find>
+      <find>get_addon_settings</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -902,14 +902,7 @@
       <workItem from="1503710047922" duration="8754000" />
       <workItem from="1503719911278" duration="3256000" />
       <workItem from="1504101609133" duration="3930000" />
-      <workItem from="1504112109991" duration="39438000" />
-    </task>
-    <task id="LOCAL-00004" summary="1">
-      <created>1503460743654</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1503460743654</updated>
+      <workItem from="1504112109991" duration="39749000" />
     </task>
     <task id="LOCAL-00005" summary="1">
       <created>1503461598507</created>
@@ -1247,11 +1240,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504335588643</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="1">
+      <created>1504336561088</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1504336561088</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66337000" />
+    <option name="totallyTimeSpent" value="66648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1873" height="1212" extended-state="6" />
@@ -1654,14 +1654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Home/View/default/Ab/a.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1713,10 +1705,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="74" column="45" lean-forward="false" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+        <state relative-caret-position="729">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding>
             <element signature="e#46#85#0#PHP" expanded="true" />
           </folding>
