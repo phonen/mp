@@ -89,7 +89,42 @@ class userController extends MobileController {
         $domain1=$settings['domain1'];
         $addon_name=get_addon();
 
+
+
+        $openid=get_openid();
+        $mpid=get_mpid();
+        $pid=I('get.pid','','int');
+
+        if(!$openid){exit('谁');}
+        $User=M('ldhqguess_user');
+        $where['openid']=$openid;
+        $where['mpid']=$mpid;
+
+        if(!session($addon_name.'_uid')){
+            $count=$User->where($where)->count();
+            if(!$count){
+                $data['openid']=$openid;
+                $data['regtime']=time();
+                $data['ip']=get_client_ip();
+                $data['logintime']=time();
+                $data['times']=1;
+                $data['mpid']=$mpid;
+                $data['parentUserNo']=$pid;
+                $uid=$User->add($data);
+            }else{
+                $info=$User->where($where)->field('id,times')->find();
+                $uid=$info['id'];
+                $datax['ip']=get_client_ip();
+                $datax['logintime']=time();
+                $datax['times']=$info['times']+1;
+                $User->where($where)->save($datax);
+
+            }
+            session($addon_name.'_uid',$uid);
+        }
         $uid=session($addon_name.'_uid');
+
+
         ldh_log($uid,"aa.php");
         $res['data']="http://".$domain1."/ab_a/".get_mpid()."/".$uid;
         $res['success']=true;

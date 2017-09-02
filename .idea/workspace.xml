@@ -4,7 +4,6 @@
     <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" afterPath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" afterPath="$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,18 +15,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ApiController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Mp/Controller/ApiController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4941">
-              <caret line="183" column="74" lean-forward="true" selection-start-line="183" selection-start-column="74" selection-end-line="183" selection-end-column="74" />
-              <folding>
-                <element signature="e#33#54#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,18 +28,18 @@
       <file leaf-file-name="AbController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Home/Controller/AbController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="945">
+              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="956">
-              <caret line="268" column="8" lean-forward="false" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="8" />
+            <state relative-caret-position="486">
+              <caret line="144" column="29" lean-forward="true" selection-start-line="136" selection-start-column="8" selection-end-line="144" selection-end-column="29" />
               <folding>
                 <element signature="e#46#85#0#PHP" expanded="true" />
               </folding>
@@ -60,31 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userController.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="userController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="92" column="31" lean-forward="false" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+            <state relative-caret-position="567">
+              <caret line="124" column="41" lean-forward="false" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/index.js">
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26907">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="443">
+              <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -108,11 +85,15 @@
       <find>Hook</find>
       <find>add_hook</find>
       <find>user</find>
-      <find>get_addon_settings</find>
-      <find>session</find>
       <find>function session</find>
       <find>ACTION_NAME</find>
       <find>ldh_lo</find>
+      <find>function get_open</find>
+      <find>session(</find>
+      <find>function get_addon</find>
+      <find>function get_openid</find>
+      <find>get_addon_settings</find>
+      <find>session</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,8 +108,8 @@
         <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/RespondController.class.php" />
         <option value="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" />
         <option value="$PROJECT_DIR$/App/Home/Controller/AbController.class.php" />
-        <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" />
         <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" />
+        <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" />
       </list>
     </option>
   </component>
@@ -862,7 +843,7 @@
       <workItem from="1503710047922" duration="8754000" />
       <workItem from="1503719911278" duration="3256000" />
       <workItem from="1504101609133" duration="3930000" />
-      <workItem from="1504112109991" duration="34452000" />
+      <workItem from="1504112109991" duration="37359000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1503455446836</created>
@@ -1186,11 +1167,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504286406125</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="1">
+      <created>1504287804539</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1504287804539</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61351000" />
+    <option name="totallyTimeSpent" value="64258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1873" height="1212" extended-state="6" />
@@ -1340,14 +1328,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Home/View/default/Ab/a.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1604,34 +1584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Home/Controller/AbController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26907">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="550" column="30" lean-forward="false" selection-start-line="550" selection-start-column="30" selection-end-line="550" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1644,21 +1600,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php">
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="92" column="31" lean-forward="false" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+        <state relative-caret-position="-26907">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/View/default/Ab/a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Home/Controller/AbController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="956">
-          <caret line="268" column="8" lean-forward="false" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="8" />
+        <state relative-caret-position="486">
+          <caret line="144" column="29" lean-forward="true" selection-start-line="136" selection-start-column="8" selection-end-line="144" selection-end-column="29" />
           <folding>
             <element signature="e#46#85#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="124" column="41" lean-forward="false" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
