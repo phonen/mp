@@ -79,7 +79,7 @@ class MobileController extends MobileBaseController {
 
         $token = get_token();
 
-ldh_log($openid,"aa.php");
+ldh_log("openid:" . $openid . "mpid:" . $mpid . "token:" . $token,"aa.php");
         if (empty($openid) && is_wechat_browser() && $mp_info['appid'] && $mp_info['appsecret'] && $mp_info['type'] == 4) {     // 通过网页授权拉取用户标识
             $wechatObj = get_wechat_obj();
             if ($wechatObj->checkAuth($mp_info['appid'], $mp_info['appsecret'])) {              // 公众号有网页授权的权限
