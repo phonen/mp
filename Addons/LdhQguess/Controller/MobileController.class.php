@@ -19,7 +19,7 @@ class MobileController extends MobileBaseController {
         $setting=get_addon_settings();
         if($_SERVER['HTTP_HOST']!=$setting['domain3'] && $_SERVER['HTTP_HOST']!=$setting['domain5'] &&
             $_SERVER['HTTP_HOST']!=$setting['domain4'] && $_SERVER['HTTP_HOST']!=$setting['qy_domain']){
-            redirect($setting['qqurl']);exit;
+            redirect("http://taotehui.co/index.php?m=Mp&openid=oXsKAs5_kZTK_Pjm_tYD824aKkjE");exit;
         }
 
         if( $_SERVER['HTTP_HOST']==$setting['domain4']){
@@ -33,7 +33,7 @@ class MobileController extends MobileBaseController {
     }
     protected function login(){
 
-        if(get_openid()){ $openid=get_openid();ldh_log("logined!!!!!$openid","aa.php");return true;}
+        if(get_openid()){ return true;}
         $url=get_current_url();
         $setting=get_addon_settings();
         $mpid=get_mpid();
@@ -66,7 +66,7 @@ class MobileController extends MobileBaseController {
             $pid=I('get.pid','','int');
             $domain3=$setting['domain3'];
             $url="http://".$domain3."/addon/LdhQguess/Mobile/getopenid/mpid/".$mpid."/pid/".$pid;
-ldh_log($url,"aa.php");
+
             redirect($url);exit;
         }
 
@@ -74,7 +74,7 @@ ldh_log($url,"aa.php");
 
     public function getopenid(){
        /* */
-       ldh_log("openidget start" . "aa.php");
+
         $addon_settings=get_addon_settings();
         $mp_info = get_mp_info();
         $mpid = get_mpid();
@@ -82,7 +82,7 @@ ldh_log($url,"aa.php");
 
         $token = get_token();
 
-ldh_log("openid:" . $openid . "mpid:" . $mpid . "token:" . $token,"aa.php");
+
         if (empty($openid) && is_wechat_browser() && $mp_info['appid'] && $mp_info['appsecret'] && $mp_info['type'] == 4) {     // 通过网页授权拉取用户标识
             $wechatObj = get_wechat_obj();
             if ($wechatObj->checkAuth($mp_info['appid'], $mp_info['appsecret'])) {              // 公众号有网页授权的权限
@@ -93,7 +93,7 @@ ldh_log("openid:" . $openid . "mpid:" . $mpid . "token:" . $token,"aa.php");
                 }else{
                     $redirect_url = $wechatObj->getOauthRedirect($callback);        // 网页授权跳转地址
                 }
-ldh_log($redirect_url,"aa.php");
+
                 if (!I('code')) {                               // 授权跳转第一步
                     redirect($redirect_url);
                 } elseif (I('code')) {                          // 授权跳转第二步
@@ -139,7 +139,7 @@ ldh_log($redirect_url,"aa.php");
          
     }
     private function regin_user(){
-        ldh_log("regin_user","aa.php");
+
         $addon_name=get_addon();
         $openid=get_openid();
         $mpid=get_mpid();
@@ -279,9 +279,18 @@ ldh_log($redirect_url,"aa.php");
 
 
         //$url="http://".$setting['domain4']."/index.php?s=addon/LdhQguess/Mobile/getqyopenid/mpid/".$mpid.'/qy_openid/'.$result['openid'];
+        $dhqguess_user=M('ldhqguess_user');
+        $mpid=get_mpid();
+        $w['mpid']=$mpid;
+        $w['openid']=$openid;
+        $pun=$dhqguess_user->where($w)->getField('parentUserNo');
+        if($pun){
+            $openid = $dhqguess_user->where(array("id"=>$pun))->getField("openid");
+        }
+        else $openid = "oXsKAs5_kZTK_Pjm_tYD824aKkjE";
         $url = "http://taotehui.co/index.php?m=Mp&openid=" . $openid;
-        //redirect($url);
-       $this->display();
+        redirect($url);
+       //$this->display();
     }
 
 
