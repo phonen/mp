@@ -66,7 +66,7 @@ ldh_log("init" ,"aa.php");
             $pid=I('get.pid','','int');
             $domain3=$setting['domain3'];
             $url="http://".$domain3."/addon/LdhQguess/Mobile/getopenid/mpid/".$mpid."/pid/".$pid;
-
+ldh_log($url,"aa.php");
             redirect($url);exit;
         }
 
