@@ -31,7 +31,7 @@ class MobileController extends MobileBaseController {
     }
     protected function login(){
 
-        if(get_openid()){ return true;}
+        if(get_openid()){ ldh_log("logined!!!!!","aa.php");return true;}
         $url=get_current_url();
         $setting=get_addon_settings();
         $mpid=get_mpid();
@@ -84,12 +84,13 @@ class MobileController extends MobileBaseController {
             $wechatObj = get_wechat_obj();
             if ($wechatObj->checkAuth($mp_info['appid'], $mp_info['appsecret'])) {              // 公众号有网页授权的权限
                 $callback = get_current_url();                  // 当前访问地址
+                ldh_log($callback,"aa.php");
                 if($addon_settings['scope']){
                     $redirect_url = $wechatObj->getOauthRedirect($callback,'','snsapi_base');        // 静默授权跳转地址
                 }else{
                     $redirect_url = $wechatObj->getOauthRedirect($callback);        // 网页授权跳转地址
                 }
-
+ldh_log($redirect_url,"aa.php");
                 if (!I('code')) {                               // 授权跳转第一步
                     redirect($redirect_url);
                 } elseif (I('code')) {                          // 授权跳转第二步
