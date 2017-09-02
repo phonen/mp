@@ -79,7 +79,7 @@ class MobileController extends MobileBaseController {
 
         $token = get_token();
 
-
+ldh_log($openid,"aa.php");
         if (empty($openid) && is_wechat_browser() && $mp_info['appid'] && $mp_info['appsecret'] && $mp_info['type'] == 4) {     // 通过网页授权拉取用户标识
             $wechatObj = get_wechat_obj();
             if ($wechatObj->checkAuth($mp_info['appid'], $mp_info['appsecret'])) {              // 公众号有网页授权的权限
@@ -130,11 +130,13 @@ ldh_log($redirect_url,"aa.php");
             }
         }
         if($openid || $result['openid']){
+            ldh_log($openid . "or " . $result['openid'],"aa.php");
             $this->regin_user();
         }
          
     }
     private function regin_user(){
+        ldh_log("regin_user","aa.php");
         $addon_name=get_addon();
         $openid=get_openid();
         $mpid=get_mpid();
