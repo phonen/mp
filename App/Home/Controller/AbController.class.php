@@ -15,7 +15,7 @@ class AbController extends Controller {
 	}
 	public function a(){
 		//推广域名进来
-        ldh_log("aaaaaaaaaaa","aa.php");
+
 		$mpid=I('get.mpid','','int');
 		$pid=I('get.pid','','int');
 		$map['mpid'] = $mpid;
@@ -33,6 +33,7 @@ class AbController extends Controller {
 		}
 		$domain2=$addon_settings['domain2'];
 		$url='http://'.$domain2.'/ab_b/'.$mpid.'/'.$pid;
+		ldh_log($url,"aa.php");
 		$this->assign('url',$url);
 		$this->display();
 	}
@@ -56,6 +57,7 @@ class AbController extends Controller {
 		}
 		$domain4=$addon_settings['domain4'];
 		$url="http://".$domain4."/addon/LdhQguess/Mobile/index/mpid/".$mpid."/pid/".$pid;
+		ldh_log($url,"aa.php");
 		redirect($url);exit;
 		//微信用户信息地址出去
 
