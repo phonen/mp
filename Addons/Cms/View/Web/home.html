@@ -1,0 +1,60 @@
+<extend name="./App/Common/View/default/Base/common.html" />
+<block name="main_content"> <include file="./App/Common/View/default/Public/crumb.html" />
+  <div class="mod">
+    <div class="mod-head">
+      <h3> <include file="./App/Common/View/default/Public/nav.html" /> </h3>
+    </div>
+    <div class="mod-body tab-content">
+      <if condition="$tip">
+        <div class="alert alert-info tip" role="alert">{$tip}</div>
+      </if>
+      <include file="./App/Common/View/default/Public/search.html" />
+      <div class="tab-pane active" id="list">
+        <if condition="$subnav">
+          <ul class="nav nav-tabs">
+            <volist name="subnav" id="vo">
+              <li role="presentation" class="{$vo.class}"><a href="{$vo.url}">{$vo.title}</a></li>
+            </volist>
+          </ul>
+          <br>
+        </if>
+        <div class="table-responsive">
+          <table class="table table-striped" style="width:100%">
+            <thead>
+              <tr>
+                <th >期数</th>
+                 <th >时间</th>
+                <th>下注</th>
+                <th>输出</th>
+                <th>盈利</th>
+         
+              </tr>
+            </thead>
+            <tbody>
+             <tr>
+                <td style="font-weight:bold" >总</td>
+                <td style="font-weight:bold" > </td>
+                <td style="font-weight:bold">{$zong[0].betAmount}</td> 
+                <td style="font-weight:bold">{$zong[0].winAmount}</td>
+                 <td style="font-weight:bold">{$zong[0].y}</td>
+              </tr> 
+            <volist name="lists" id="vo">
+              <tr>
+                <td >{$vo.issueNo}</td>
+                <td >{:date('Y-m-d H:i:s',$vo['buytime'])}</td>
+                <td >{$vo.betAmount}</td> 
+                <td>{$vo.winAmount}</td>
+                 <td>{$vo.y}</td>
+              </tr>
+              </volist>
+              
+              
+            </tbody>
+          </table>
+        </div>
+        <div class="pages"> {$Page} </div>
+      </div>
+    </div>
+  </div>
+ 
+</block>

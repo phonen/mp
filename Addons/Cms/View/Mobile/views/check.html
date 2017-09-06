@@ -1,0 +1,67 @@
+
+<div class="l-ab-page">
+	<div class="l-main-content">
+		<div class="page-cash">
+			<ul class="page-cash-list blue-btn">
+				<li>
+					<span>您的余额：￥<i id="balance">0</i></span>
+					<span class="btn-face-01 yuer" >兑换</span>
+				</li>
+				<li>
+					<span>您的佣金：￥<i id="brokerage">0</i></span>
+					<span class="btn-face-01 yongjin"  >兑换</span>
+				</li>
+				<li>
+					<span>充值记录</span>
+					<a class="btn-face-01" href="#cclist">查看</a>
+				</li>
+				<li>
+					<span>兑换记录</span>
+					<a class="btn-face-01" href="#dhlist">查看</a>
+				</li>
+				<li>
+					<span>佣金记录</span>
+					<a class="btn-face-01" href="#yjlist">查看</a>
+				</li>
+				<li>
+					<span>竞猜记录</span>
+					<a class="btn-face-01" href="#zjlist">查看</a>
+				</li>
+				<li>
+					<span>竞猜榜单</span>
+					<a class="btn-face-01" href="#bdlist">查看</a>
+				</li>
+				<li id="ydxs">
+					<span>夜读小说</span>
+					<a class="btn-face-01" href="http://book.joymegame.com/html/bookreader.html?book_id=3e5945dbfd504c798a3a5be0ee3a43b9&catalog_id=e0145452590c4509ac4e51905855aa42&channel=niexin">查看</a>
+				</li>
+			</ul>
+			<div class="smrzBox"><a class="smrz" href="https://pay.weixin.qq.com/index.php/public/cms/content_detail?platformType=0&lang=zh&id=41201">部分用户提现不到帐？</a></div>
+		</div>
+	</div>
+</div>
+<div class="l-nav-bottom-box">
+<div class="l-nav-bottom">
+	<div class="icon-item"><span class="icon-item-01">游戏</span></div>
+	<div class="icon-item"><span class="icon-item-02">记录</span></div>
+	<div class="icon-item active"><span class="icon-item-03">查询</span></div>
+	<div class="icon-item"><span class="icon-item-04">代理赚钱</span></div>
+	<div class="icon-item"><span class="icon-item-05">客服</span></div>
+</div>
+</div>
+<div class="l-layer-mask1"></div>
+
+<script>
+	$(function(){
+
+		 $.post('',{qy_openid:1},function(data){
+			 if(data.status==1){
+				 location.href=data.url;
+			 }
+
+		 });
+
+	});
+
+
+</script>
