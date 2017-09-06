@@ -2,154 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/IndexController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/discController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/oddsConfigController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/orderController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/payController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/queryController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/yongjinController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/RespondController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Web/configController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/Web/memberController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/Controller/WebController.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/pay_pay.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/bd-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/cc-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/check.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/dh-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/dl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/get-cash.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/kf.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/yj-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/zj-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/0x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/101.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/102.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/105.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/121.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/124.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/129.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/16xx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/2w.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/4x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/6x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/71.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/73.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/s/xuanchuan1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/weit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/xuanchuan1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/img/xuanchuan1c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/bdlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/cclist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dhlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/fastclick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/flexible.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/getcash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/kf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/qrcode.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/require.vipspa.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/token.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/vipspa.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/yjlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/zepto.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/zepto.min2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/zepto2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/zjlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Public/style/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Web/config_edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Web/config_index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Web/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Web/member_index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/View/Web/mobile_index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/info.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Addons/LdhQguess/logo.jpeg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,7 +17,7 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="675">
               <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding />
             </state>
@@ -175,7 +27,7 @@
       <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="143">
               <caret line="337" column="26" lean-forward="false" selection-start-line="337" selection-start-column="17" selection-end-line="337" selection-end-column="26" />
               <folding />
             </state>
@@ -185,7 +37,7 @@
       <file leaf-file-name="AbController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Home/Controller/AbController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
+            <state relative-caret-position="1593">
               <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
@@ -195,7 +47,7 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="8586">
               <caret line="319" column="36" lean-forward="false" selection-start-line="319" selection-start-column="31" selection-end-line="319" selection-end-column="36" />
               <folding />
             </state>
@@ -205,7 +57,7 @@
       <file leaf-file-name="MpModel.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Mp/Model/MpModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1377">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -300,8 +152,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -994,14 +846,10 @@
       <workItem from="1503710047922" duration="8754000" />
       <workItem from="1503719911278" duration="3256000" />
       <workItem from="1504101609133" duration="3930000" />
-      <workItem from="1504112109991" duration="45493000" />
-    </task>
-    <task id="LOCAL-00010" summary="1">
-      <created>1503711359050</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1503711359050</updated>
+      <workItem from="1504112109991" duration="46104000" />
+      <workItem from="1504599808523" duration="755000" />
+      <workItem from="1504698093692" duration="111000" />
+      <workItem from="1504709131589" duration="13000" />
     </task>
     <task id="LOCAL-00011" summary="1">
       <created>1503712118837</created>
@@ -1339,16 +1187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1504356748844</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="1">
+      <created>1504401432341</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1504401432341</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72392000" />
+    <option name="totallyTimeSpent" value="73882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1873" height="1212" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2404106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23987034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1382,51 +1237,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/kf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/get-cash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/yongjinController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dhlist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/oddsConfigController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/kf.html" />
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/get-cash.html" />
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/yongjinController.class.php" />
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dhlist.js" />
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/oddsConfigController.class.php" />
     <entry file="file://$PROJECT_DIR$/App/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,7 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,28 +1260,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1499446468066" expanded="true" signature="246:316" ph="..." />
-            <marker date="1499446468066" expanded="true" signature="405:1722" ph="..." />
-            <marker date="1499446468066" expanded="true" signature="422:1709" ph="{&quot;debug&quot;: 'EXTERNAL_FRAGMENT'...}" />
-            <marker date="1499446468066" expanded="true" signature="676:1700" ph="[...]" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/queryController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2754">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/queryController.class.php" />
     <entry file="file://$PROJECT_DIR$/App/Mp/Controller/AddonsController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1471,7 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-47">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1479,7 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-47">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1487,7 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1495,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-324">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1503,7 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1511,7 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1519,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1527,31 +1324,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="71" lean-forward="true" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/WebController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dialog.js" />
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/WebController.class.php" />
     <entry file="file://$PROJECT_DIR$/App/Common/Controller/CommonController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22923">
           <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,7 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1567,7 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1575,7 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2106">
           <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1599,7 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1613,30 +1390,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/RespondController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5265">
-          <caret line="195" column="1" lean-forward="false" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4962">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/discController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/RespondController.class.php" />
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/info.php" />
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/discController.class.php" />
     <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-750">
@@ -1655,41 +1411,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="167" column="63" lean-forward="false" selection-start-line="167" selection-start-column="59" selection-end-line="167" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26907">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dl.js" />
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/index.js" />
     <entry file="file://$PROJECT_DIR$/App/Home/View/default/Ab/a.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Mp/Model/MpModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1708,7 +1442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="8586">
           <caret line="319" column="36" lean-forward="false" selection-start-line="319" selection-start-column="31" selection-end-line="319" selection-end-column="36" />
           <folding />
         </state>
@@ -1718,39 +1452,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Home/Controller/AbController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
+        <state relative-caret-position="1593">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7857">
-          <caret line="291" column="116" lean-forward="false" selection-start-line="291" selection-start-column="116" selection-end-line="291" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" />
+    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" />
     <entry file="file://$PROJECT_DIR$/Addons/IdouGuestbook/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1764,7 +1482,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="675">
           <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding />
         </state>
@@ -1796,7 +1514,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="143">
           <caret line="337" column="26" lean-forward="false" selection-start-line="337" selection-start-column="17" selection-end-line="337" selection-end-column="26" />
           <folding />
         </state>
