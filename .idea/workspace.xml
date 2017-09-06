@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/Cms/Controller/WebController.class.php" afterPath="$PROJECT_DIR$/Addons/Cms/Controller/WebController.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +25,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MpController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MpController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/WebController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+              <folding>
+                <marker date="1504711071645" expanded="true" signature="567:2713" ph="SELECT * FRO... dc_ldhqguess_chongzhi" />
+                <marker date="1504711071645" expanded="true" signature="3541:3670" ph="SELECT SUM(b... " />
+                <marker date="1504711071645" expanded="true" signature="3720:3788" ph="SELECT count... " />
+                <marker date="1504711071645" expanded="true" signature="3910:4103" ph="SELECT issue... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
               <caret line="337" column="26" lean-forward="false" selection-start-line="337" selection-start-column="17" selection-end-line="337" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cloak.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloak.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="92" lean-forward="true" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="memberController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/Web/memberController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-183">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -97,9 +153,11 @@
       <find>session</find>
       <find>LdhQguess</find>
       <find>get_addon_settings</find>
+      <find>;</find>
     </findStrings>
     <replaceStrings>
       <replace>cms</replace>
+      <replace>;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -121,6 +179,10 @@
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php" />
+        <option value="$PROJECT_DIR$/cloak.php" />
+        <option value="$PROJECT_DIR$/Addons/Cms/Controller/Web/configController.class.php" />
+        <option value="$PROJECT_DIR$/Addons/Cms/Controller/Web/memberController.class.php" />
+        <option value="$PROJECT_DIR$/Addons/Cms/Controller/WebController.class.php" />
       </list>
     </option>
   </component>
@@ -728,6 +790,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Mobile" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -849,14 +937,7 @@
       <workItem from="1504112109991" duration="46104000" />
       <workItem from="1504599808523" duration="755000" />
       <workItem from="1504698093692" duration="111000" />
-      <workItem from="1504709131589" duration="103000" />
-    </task>
-    <task id="LOCAL-00012" summary="1">
-      <created>1503715350762</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1503715350762</updated>
+      <workItem from="1504709131589" duration="1593000" />
     </task>
     <task id="LOCAL-00013" summary="1">
       <created>1503716014762</created>
@@ -1194,16 +1275,24 @@
       <option name="project" value="LOCAL" />
       <updated>1504709177276</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="1">
+      <created>1504709876060</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1504709876061</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73972000" />
+    <option name="totallyTimeSpent" value="75462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1873" height="1212" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23987034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23987034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1237,10 +1326,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/kf.html" />
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Mobile/views/get-cash.html" />
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/yongjinController.class.php" />
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/dhlist.js" />
     <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/oddsConfigController.class.php" />
     <entry file="file://$PROJECT_DIR$/App/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1272,13 +1357,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Mp/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MpController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-47">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1385,7 +1463,7 @@
         <state relative-caret-position="4941">
           <caret line="183" column="74" lean-forward="true" selection-start-line="183" selection-start-column="74" selection-end-line="183" selection-end-column="74" />
           <folding>
-            <element signature="e#33#54#0#PHP" expanded="true" />
+            <element signature="e#33#54#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1434,7 +1512,7 @@
         <state relative-caret-position="605">
           <caret line="1209" column="21" lean-forward="true" selection-start-line="1209" selection-start-column="21" selection-end-line="1209" selection-end-column="21" />
           <folding>
-            <element signature="e#6#1172#0#PHP" expanded="true" />
+            <element signature="e#6#1172#0#PHP" expanded="false" />
             <marker date="1499446470596" expanded="true" signature="33032:33173" ph="..." />
           </folding>
         </state>
@@ -1480,22 +1558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2889">
@@ -1517,6 +1579,67 @@
         <state relative-caret-position="143">
           <caret line="337" column="26" lean-forward="false" selection-start-line="337" selection-start-column="17" selection-end-line="337" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MpController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/Web/configController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloak.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="92" lean-forward="true" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/Web/memberController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/WebController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+          <folding>
+            <marker date="1504711071645" expanded="true" signature="567:2713" ph="SELECT * FRO... dc_ldhqguess_chongzhi" />
+            <marker date="1504711071645" expanded="true" signature="3541:3670" ph="SELECT SUM(b... " />
+            <marker date="1504711071645" expanded="true" signature="3720:3788" ph="SELECT count... " />
+            <marker date="1504711071645" expanded="true" signature="3910:4103" ph="SELECT issue... " />
+          </folding>
         </state>
       </provider>
     </entry>

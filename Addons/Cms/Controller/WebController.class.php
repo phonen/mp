@@ -83,7 +83,7 @@ class WebController extends AddonsController {
         if(count($model)>1){
             $controller=$model[0]?$model[0]:die('谁1？');
             $action=$model[1]?$model[1]:die('谁2？');
-            $class='\Addons\LdhQguess\Controller\Web\\'.$controller.'Controller';
+            $class='\Addons\Cms\Controller\Web\\'.$controller.'Controller';
             if(class_exists($class)) {
                 $news             =   new $class();
                 $news->$action();
