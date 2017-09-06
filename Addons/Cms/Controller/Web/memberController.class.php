@@ -1,7 +1,7 @@
 <?php
 
-namespace Addons\LdhQguess\Controller\Web;
-use Addons\LdhQguess\Controller\WebController;
+namespace Addons\Cms\Controller\Web;
+use Addons\Cms\Controller\WebController;
 
 /**
  * QQ在线竞猜后台管理控制器
@@ -11,8 +11,8 @@ class memberController extends WebController {
     
     public function index(){
         //配置静态地址
-        $config['rule']['list']='/addon/LdhQguess/web/member_index/page/*';
-        $config['rule']['index']='/addon/LdhQguess/web/member_index';
+        $config['rule']['list']='/addon/Cms/web/member_index/page/*';
+        $config['rule']['index']='/addon/Cms/web/member_index';
         $where['mpid']=get_mpid();
         $lists=$this->Pages('ldhqguess_user',$where,true,true,20,0,$config,1);
         $this->assign('lists',$lists);

@@ -1,7 +1,7 @@
 <?php
 
-namespace Addons\LdhQguess\Controller\Web;
-use Addons\LdhQguess\Controller\WebController;
+namespace Addons\Cms\Controller\Web;
+use Addons\Cms\Controller\WebController;
 
 /**
  * QQ在线竞猜后台管理控制器

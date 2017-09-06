@@ -1,6 +1,6 @@
 <?php
 
-namespace Addons\LdhQguess\Controller;
+namespace Addons\Cms\Controller;
 use Mp\Controller\AddonsController;
 
 /**
