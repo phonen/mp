@@ -45,7 +45,7 @@
                   <td>{$vo.ip}</td>
                    <td>{:date('m-d H:i:s',$vo['logintime'])}</td>
                     <td>{$vo.times}</td> 
-                <td ><a  href="{:U('addon/LdhQguess/web/member_edit',array('id'=>$vo['id']))}" class="btn btn-primary btn-sm icon-edit">编辑</a>&nbsp;
+                <td ><a  href="{:U('addon/Cms/web/member_edit',array('id'=>$vo['id']))}" class="btn btn-primary btn-sm icon-edit">编辑</a>&nbsp;
                 <a href="javascript:;" rel_id="{$vo.id}" class="<if condition="$vo['lahei']">laheix<else />lahei</if> btn btn-primary btn-sm icon-edit">拉黑</a>&nbsp;
                 </td> 
               </tr>

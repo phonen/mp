@@ -1259,6 +1259,30 @@ function count_child_class($uid){
 
 }
 
+function get_proxy($mpid,$openid){
+    $User=M('ldhqguess_user');
+    $where['openid']=$openid;
+    $where['mpid']=$mpid;
+    $info=$User->where($where)->field('proxy')->find();
+    if($info){
+        if($info['proxy'] == ""){
+            if($info['parentUserNo'] === 0) $proxy = "taotehui001";
+            else {
+                $info1=$User->where(array("id"=>$info['parentUserNo']))->field('proxy')->find();
+                if($info1){
+                    if($info1['proxy'] == "")$proxy = "taotehui001";
+                    else $proxy = $info1['proxy'];
+                }
+                else $proxy = "taotehui001";
+            }
+        }
+        else $proxy = $info['proxy'];
+
+    }
+    else $proxy = "taotehui001";
+    return $proxy;
+}
+
 
 
 ?>

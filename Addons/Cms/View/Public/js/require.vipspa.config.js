@@ -1,6 +1,6 @@
 var urlConfig = {
-	baseUrl: Baseroot+"Addons/LdhQguess/View/Public/js/",
-	baseviews:Baseroot+"Addons/LdhQguess/View/Mobile/"
+	baseUrl: Baseroot+"Addons/Cms/View/Public/js/",
+	baseviews:Baseroot+"Addons/Cms/View/Mobile/"
 };
 
 require.config({

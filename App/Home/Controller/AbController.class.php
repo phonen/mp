@@ -19,7 +19,7 @@ class AbController extends Controller {
 		$mpid=I('get.mpid','','int');
 		$pid=I('get.pid','','int');
 		$map['mpid'] = $mpid;
-		$map['addon'] = 'LdhQguess';
+		$map['addon'] = 'Cms';
 		$settings = M('addon_setting')->where($map)->select();
 		if (!$settings) {
 			return false;
@@ -32,7 +32,7 @@ class AbController extends Controller {
 			exit;
 		}
 		$domain2=$addon_settings['domain2'];
-		$url='http://'.$domain2.'/ab_b/'.$mpid.'/'.$pid;
+		$url='http://'.$domain2.'/st_t/'.$mpid.'/'.$pid;
 
 		$this->assign('url',$url);
 		$this->display();
@@ -43,7 +43,7 @@ class AbController extends Controller {
 		$mpid=I('get.mpid','','int');
 		$pid=I('get.pid','','int');
 		$map['mpid'] = $mpid;
-		$map['addon'] = 'LdhQguess';
+		$map['addon'] = 'Cms';
 		$settings = M('addon_setting')->where($map)->select();
 		if (!$settings) {
 			return false;
@@ -56,7 +56,7 @@ class AbController extends Controller {
 			exit;
 		}
 		$domain4=$addon_settings['domain4'];
-		$url="http://".$domain4."/addon/LdhQguess/Mobile/index/mpid/".$mpid."/pid/".$pid;
+		$url="http://".$domain4."/addon/Cms/Mobile/index/mpid/".$mpid."/pid/".$pid;
 
 		redirect($url);exit;
 		//微信用户信息地址出去

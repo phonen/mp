@@ -16,6 +16,8 @@ class RespondController extends ApiController {
     public function wechat($message = array()) {
         $keyword = $message['content'];
 
+        $openid=get_openid();
+        $mpid=get_mpid();
         $pt = "/\*(\d{16,17})/";
         $match = preg_match($pt,$keyword);
         if($match){
@@ -28,11 +30,35 @@ class RespondController extends ApiController {
             $pt = "/^(taotehui|buyi|yhg)\d{3,4}/";
             $match = preg_match($pt,$keyword);
             if($match){
-                $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=save_openid';
-                $openid = get_openid();
-                $data['openid'] = $openid;
-                $data['msg'] = $keyword;
-                reply_text($this->http_post_content($url,$data));
+
+                $pid=13;
+
+                $User=M('ldhqguess_user');
+                $where['openid']=$openid;
+                $where['mpid']=$mpid;
+                $count=$User->where($where)->count();
+                if(!$count){
+                    $data['openid']=$openid;
+                    $data['regtime']=time();
+                    $data['ip']=get_client_ip();
+                    $data['logintime']=time();
+                    $data['times']=1;
+                    $data['mpid']=$mpid;
+                    $data['parentUserNo']=$pid;
+                    $data['proxy'] = $keyword;
+                    $uid=$User->add($data);
+                }else{
+                    $info=$User->where($where)->field('id,times')->find();
+                    $uid=$info['id'];
+                    $datax['ip']=get_client_ip();
+                    $datax['logintime']=time();
+                    $datax['times']=$info['times']+1;
+                    $datax['proxy'] = $keyword;
+                    $User->where($where)->save($datax);
+
+                }
+
+                reply_text($keyword."设置成功！");
             }
             else {
                 $match = preg_match("/[\x{ffe5}\x{300a}].*[\x{ffe5}\x{300a}]/u",$keyword,$out);
@@ -49,10 +75,12 @@ class RespondController extends ApiController {
                     $rsarr = json_decode($rs2,true);
                     $item_url = $rsarr['url'];
 
-                    $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=taoke_info_openid';
-                    $data['msg'] = $item_url;
 
-                    $data['openid'] = get_openid();
+
+                    $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=taoke_info_proxy';
+                    $data['msg'] = $item_url;
+                    $data['proxy'] = get_proxy($mpid,$openid);
+
 
                     reply_text($this->http_post_content($url,$data));
                 }
@@ -60,10 +88,10 @@ class RespondController extends ApiController {
                     $match = preg_match('/https?:\/\/[\w=.?&\/;%]+/',$keyword,$out);
                     if($match){
 
-                        $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=taoke_info_openid';
+                        $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=taoke_info_proxy';
                         $data['msg'] = $out[0];
 
-                        $data['openid'] = get_openid();
+                        $data['proxy'] = get_proxy($mpid,$openid);
 
                         reply_text($this->http_post_content($url,$data));
                     }
@@ -71,8 +99,8 @@ class RespondController extends ApiController {
                         $match = preg_match("/^\x{627e}(.*)/u",$keyword,$out);
                         if($match){
                             $data['kw'] = $out[1];
-                            $data['openid'] = get_openid();
-                            $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=search_temai_by_key_openid';
+                            $data['proxy'] = get_proxy($mpid,$openid);
+                            $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=search_temai_by_key_proxy';
 //                            \Think\Log::write($data['kw'],'WARN');
                             reply_text($this->http_post_content($url,$data));
 
