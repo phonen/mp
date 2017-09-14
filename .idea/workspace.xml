@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
+    <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" afterPath="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Common/Common/function.php" afterPath="$PROJECT_DIR$/App/Common/Common/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Common/Conf/config.php" afterPath="$PROJECT_DIR$/App/Common/Conf/config.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="567">
               <caret line="288" column="23" lean-forward="true" selection-start-line="288" selection-start-column="23" selection-end-line="288" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -151,11 +160,11 @@
         <option value="$PROJECT_DIR$/cloak.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php" />
         <option value="$PROJECT_DIR$/App/Home/Controller/AbController.class.php" />
-        <option value="$PROJECT_DIR$/App/Common/Conf/config.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/View/Mobile/index.html" />
         <option value="$PROJECT_DIR$/Addons/Cms/View/Public/js/require.vipspa.config.js" />
         <option value="$PROJECT_DIR$/App/Common/Common/function.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
+        <option value="$PROJECT_DIR$/App/Common/Conf/config.php" />
       </list>
     </option>
   </component>
@@ -1003,14 +1012,7 @@
       <workItem from="1504709131589" duration="9557000" />
       <workItem from="1504840097859" duration="7745000" />
       <workItem from="1505204352577" duration="1500000" />
-      <workItem from="1505309604598" duration="6831000" />
-    </task>
-    <task id="LOCAL-00015" summary="1">
-      <created>1503716357578</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1503716357578</updated>
+      <workItem from="1505309604598" duration="7092000" />
     </task>
     <task id="LOCAL-00016" summary="1">
       <created>1503716838088</created>
@@ -1348,11 +1350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505312814660</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="1">
+      <created>1505396270371</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1505396270371</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99502000" />
+    <option name="totallyTimeSpent" value="99763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1612,14 +1621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Home/Controller/AbController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -1732,6 +1733,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="288" column="23" lean-forward="true" selection-start-line="288" selection-start-column="23" selection-end-line="288" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding />
         </state>
       </provider>

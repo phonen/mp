@@ -23,8 +23,8 @@ return array(
         'addon/:addon/web/:act' => 'Mp/Web/:2',
         'addon/:addon/mobile/:act' => 'Mp/Mobile/:2',
         'news/:id' => 'Mp/MobileBase/detail',
-        'st_s/:mpid\d/:pid\d' => 'Home/Ab/a',
-        'st_t/:mpid\d/:pid\d'=>'Home/Ab/b'
+        'ab_a/:mpid\d/:pid\d' => 'Home/Ab/a',
+        'ab_b/:mpid\d/:pid\d'=>'Home/Ab/b'
     ),
 
     'TOKEN_ON'      =>    true,            // 是否开启令牌验证 默认关闭
