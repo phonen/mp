@@ -18,18 +18,8 @@
       <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="280" column="53" lean-forward="true" selection-start-line="280" selection-start-column="53" selection-end-line="280" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Home/Controller/AbController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="670">
+              <caret line="335" column="32" lean-forward="true" selection-start-line="335" selection-start-column="32" selection-end-line="335" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -38,48 +28,18 @@
       <file leaf-file-name="dh-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dh-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+            <state relative-caret-position="1215">
+              <caret line="45" column="76" lean-forward="true" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/dl.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dl.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dl.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-309">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="1289" column="0" lean-forward="true" selection-start-line="1289" selection-start-column="0" selection-end-line="1289" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="81">
+              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -1002,14 +962,7 @@
       <workItem from="1504709131589" duration="9557000" />
       <workItem from="1504840097859" duration="7745000" />
       <workItem from="1505204352577" duration="1500000" />
-      <workItem from="1505309604598" duration="7307000" />
-    </task>
-    <task id="LOCAL-00017" summary="1">
-      <created>1503717562262</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1503717562262</updated>
+      <workItem from="1505309604598" duration="9238000" />
     </task>
     <task id="LOCAL-00018" summary="1">
       <created>1503717690776</created>
@@ -1347,11 +1300,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505396528941</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="1">
+      <created>1505396744162</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1505396744162</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99978000" />
+    <option name="totallyTimeSpent" value="101909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1391,37 +1351,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1944">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/debug.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/User/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Mp/Controller/ApiController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4941">
-          <caret line="183" column="74" lean-forward="true" selection-start-line="183" selection-start-column="74" selection-end-line="183" selection-end-column="74" />
-          <folding>
-            <element signature="e#33#54#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/RespondController.class.php" />
     <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/info.php" />
     <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/discController.class.php" />
@@ -1595,14 +1524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Home/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1615,14 +1536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dh-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -1653,59 +1566,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/require.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/vipspa.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/require.vipspa.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3738">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/dl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1727,10 +1590,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dh-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="45" column="76" lean-forward="true" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/Common/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1340" lean-forward="false" selection-start-line="0" selection-start-column="1340" selection-end-line="0" selection-end-column="1340" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/vipspa.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/require.vipspa.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/dl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2511">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="280" column="53" lean-forward="true" selection-start-line="280" selection-start-column="53" selection-end-line="280" selection-end-column="53" />
+        <state relative-caret-position="670">
+          <caret line="335" column="32" lean-forward="true" selection-start-line="335" selection-start-column="32" selection-end-line="335" selection-end-column="32" />
           <folding />
         </state>
       </provider>

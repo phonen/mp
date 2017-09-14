@@ -292,6 +292,50 @@ class MobileController extends MobileBaseController {
     }
 
 
+    public function dl(){
+        $setting=get_addon_settings();
+        $openid=get_openid();
+
+        if(IS_AJAX && I('post.qy_openid')){
+
+            $dhqguess_user=M('ldhqguess_user');
+            $openid=get_openid();
+            $mpid=get_mpid();
+
+            $w['mpid']=$mpid;
+            $w['openid']=$openid;
+            $qy_openid=$dhqguess_user->where($w)->getField('qy_openid');
+            if(!$qy_openid){
+                $options = array(
+                    'appid'             =>  $setting['appi'],
+                    'appsecret'         =>  $setting['apps']
+                );
+                $wechatObj = new Wechat($options);
+                $url="http://".$setting['qy_domain']."/index.php?s=addon/Cms/Mobile/qyopenid/mpid/".$mpid;
+                if ($wechatObj->checkAuth($setting['appi'], $setting['apps'])) {              // 公众号有网页授权的权限
+                    $redirect_url = $wechatObj->getOauthRedirect($url, '', 'snsapi_base');        // 静默授权跳转地址
+                }
+                $data['status']=1;
+                $data['url']=$redirect_url;
+                $this->ajaxReturn($data);
+
+            }
+            exit;
+
+        }
+
+
+
+        $this->assign('kefu',$setting['kefu']);
+        $this->assign('yjimg',$setting['yjimg']);
+        $this->assign('xuanchuan1',$setting['xuanchuan1']);
+
+
+        //$url="http://".$setting['domain4']."/index.php?s=addon/LdhQguess/Mobile/getqyopenid/mpid/".$mpid.'/qy_openid/'.$result['openid'];
+
+        $this->display("index");
+    }
+
     public function _empty(){
         $setting=get_addon_settings();
         if( $_SERVER['HTTP_HOST']!=$setting['domain4'] && $_SERVER['HTTP_HOST']!=$setting['domain5'] && $_SERVER['HTTP_HOST']!=$setting['domain3']){
