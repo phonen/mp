@@ -1283,6 +1283,12 @@ function get_proxy($mpid,$openid){
     return $proxy;
 }
 
+function get_pid($proxy){
+    $Proxy = M('taotehui.TbkqqProxy','cmf_')->where(array("proxy"=>$proxy))->find();
+    if($Proxy)
+    return $Proxy['pid'];
+
+}
 
 
 ?>

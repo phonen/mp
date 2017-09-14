@@ -279,17 +279,13 @@ class MobileController extends MobileBaseController {
 
 
         //$url="http://".$setting['domain4']."/index.php?s=addon/LdhQguess/Mobile/getqyopenid/mpid/".$mpid.'/qy_openid/'.$result['openid'];
-        $dhqguess_user=M('ldhqguess_user');
+
+
         $mpid=get_mpid();
-        $w['mpid']=$mpid;
-        $w['openid']=$openid;
-        $pun=$dhqguess_user->where($w)->getField('parentUserNo');
-        if($pun){
-            $openid = $dhqguess_user->where(array("id"=>$pun))->getField("openid");
-        }
-        else $openid = "oXsKAs5_kZTK_Pjm_tYD824aKkjE";
-       // $url = "http://taotehui.co/index.php?m=Mp&openid=" . $openid;
-        $url = "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxMTU2MDAzMA==&scene=124#wechat_redirect";
+        $proxy = get_proxy($mpid,$openid);
+        $pid = get_pid($proxy);
+        $url = "http://kele.alicdn1.com/index.php?r=index/wap&pid=" . $pid;
+        //$url = "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxMTU2MDAzMA==&scene=124#wechat_redirect";
         redirect($url);
        //$this->display();
     }
