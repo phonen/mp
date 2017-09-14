@@ -108,7 +108,7 @@ function date(a, b) {
 			if(n == 1) {
 				img.src = img1.src 
 			} else {
-				img.src = "/Addons/LdhQguess/View/Public/img/xuanchuan1.png" ;
+				img.src = "/Addons/Cms/View/Public/img/xuanchuan1.png" ;
 			}
 			img.onload = function() {
 				if(n == 1) {
