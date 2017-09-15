@@ -4,6 +4,7 @@
     <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" afterPath="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" afterPath="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,12 +16,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="297" column="24" lean-forward="false" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
+            <state relative-caret-position="756">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobileBaseController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <folding>
+                <marker date="1505484083762" expanded="true" signature="1598:1790" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,7 +180,6 @@
         <option value="$PROJECT_DIR$/App/Mp/Controller/ApiController.class.php" />
         <option value="$PROJECT_DIR$/Addons/IdouGuestbook/Controller/RespondController.class.php" />
         <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/RespondController.class.php" />
-        <option value="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" />
         <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" />
         <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" />
         <option value="$PROJECT_DIR$/Addons/cms/info.php" />
@@ -191,6 +203,7 @@
         <option value="$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dl.html" />
         <option value="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
+        <option value="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" />
       </list>
     </option>
   </component>
@@ -1075,14 +1088,7 @@
       <workItem from="1505204352577" duration="1500000" />
       <workItem from="1505309604598" duration="11304000" />
       <workItem from="1505435390025" duration="11099000" />
-      <workItem from="1505481385745" duration="2493000" />
-    </task>
-    <task id="LOCAL-00029" summary="1">
-      <created>1504193097660</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1504193097660</updated>
+      <workItem from="1505481385745" duration="2677000" />
     </task>
     <task id="LOCAL-00030" summary="1">
       <created>1504193443350</created>
@@ -1420,11 +1426,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505483762332</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="1">
+      <created>1505483904937</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1505483904937</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117567000" />
+    <option name="totallyTimeSpent" value="117751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1464,7 +1477,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/View/Public/js/index.js" />
     <entry file="file://$PROJECT_DIR$/App/Home/View/default/Ab/a.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1556,6 +1568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="892" column="27" lean-forward="false" selection-start-line="892" selection-start-column="14" selection-end-line="892" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1594,6 +1607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1601,6 +1615,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1623,6 +1638,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1676,6 +1692,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="107" column="34" lean-forward="false" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1825,9 +1842,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="297" column="24" lean-forward="false" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
+        <state relative-caret-position="756">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <marker date="1505484083762" expanded="true" signature="1598:1790" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

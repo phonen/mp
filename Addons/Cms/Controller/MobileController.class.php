@@ -14,7 +14,7 @@ class MobileController extends MobileBaseController {
 
     public function _initialize()
     {
-        /*
+
         parent::_initialize();
 
         $setting=get_addon_settings();
@@ -29,7 +29,7 @@ class MobileController extends MobileBaseController {
 
             $this->lahei();//拉黑
         }
-*/
+
 
     }
     protected function login(){
