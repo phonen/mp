@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php" afterPath="$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,18 +18,8 @@
       <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
+            <state relative-caret-position="312">
               <caret line="295" column="34" lean-forward="false" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SceneQrcodeController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Mp/Controller/SceneQrcodeController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="107" column="34" lean-forward="false" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -57,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dl.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dl.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="54">
               <caret line="14" column="86" lean-forward="false" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -69,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userController.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="userController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="105" column="40" lean-forward="true" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+            <state relative-caret-position="663">
+              <caret line="127" column="8" lean-forward="true" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -143,7 +134,6 @@
         <option value="$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" />
         <option value="$PROJECT_DIR$/Addons/cms/info.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/info.php" />
-        <option value="$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/Web/configController.class.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/Web/memberController.class.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/WebController.class.php" />
@@ -161,6 +151,7 @@
         <option value="$PROJECT_DIR$/Addons/Cms/View/Public/js/data-moment.js" />
         <option value="$PROJECT_DIR$/Addons/Cms/View/Public/js/bootstrap-datetimepicker.js" />
         <option value="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" />
+        <option value="$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php" />
       </list>
     </option>
   </component>
@@ -1040,14 +1031,7 @@
       <workItem from="1504840097859" duration="7745000" />
       <workItem from="1505204352577" duration="1500000" />
       <workItem from="1505309604598" duration="11304000" />
-      <workItem from="1505435390025" duration="6268000" />
-    </task>
-    <task id="LOCAL-00024" summary="1">
-      <created>1504157384983</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1504157384983</updated>
+      <workItem from="1505435390025" duration="6480000" />
     </task>
     <task id="LOCAL-00025" summary="1">
       <created>1504171575628</created>
@@ -1385,11 +1369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505457402273</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="1">
+      <created>1505457440618</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1505457440618</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110243000" />
+    <option name="totallyTimeSpent" value="110455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1743,22 +1734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="105" column="40" lean-forward="true" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="295" column="34" lean-forward="false" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/data-moment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14850">
@@ -1792,11 +1767,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="54">
           <caret line="14" column="86" lean-forward="false" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="295" column="34" lean-forward="false" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="127" column="8" lean-forward="true" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

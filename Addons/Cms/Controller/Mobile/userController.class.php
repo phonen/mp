@@ -125,13 +125,13 @@ class userController extends MobileController {
         $uid=session($addon_name.'_uid');
 
 
-        ldh_log($uid,"aa.php");
+        
         $res['data']="http://".$domain1."/ab_a/".get_mpid()."/".$uid;
         $res['success']=true;
         $res['timeout']=false;
         $res['overdue']=false;
         $res['currentDate']=get_microtime();
-
+        ldh_log($res,"aa.php");
         $this->ajaxReturn($res);
 
     }
