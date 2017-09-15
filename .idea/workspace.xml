@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" afterPath="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1041,14 +1040,7 @@
       <workItem from="1504840097859" duration="7745000" />
       <workItem from="1505204352577" duration="1500000" />
       <workItem from="1505309604598" duration="11304000" />
-      <workItem from="1505435390025" duration="6235000" />
-    </task>
-    <task id="LOCAL-00023" summary="1">
-      <created>1504157253106</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1504157253106</updated>
+      <workItem from="1505435390025" duration="6268000" />
     </task>
     <task id="LOCAL-00024" summary="1">
       <created>1504157384983</created>
@@ -1386,11 +1378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505456981495</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="1">
+      <created>1505457402273</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1505457402273</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110210000" />
+    <option name="totallyTimeSpent" value="110243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
