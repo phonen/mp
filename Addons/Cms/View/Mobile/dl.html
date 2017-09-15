@@ -2,180 +2,140 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
-	<title>www.2690.cn</title>
-	<meta name="description" content="Dragonfruit is one of the free HTML5 Templates from templatemo. It is a parallax layout with jQuery slider, events, and timeline." />
-	<meta name="author" content="templatemo">
-	<!-- Favicon-->
-	<link rel="icon" href="http://www.2690.cn/images/ico/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="http://www.2690.cn/images/ico/favicon.ico" type="image/x-icon" />
-
-	<link rel="stylesheet" type="text/css" href="__ROOT__/Addons/Cms/View/Public/style/data-styles.css" media="all">
-	<link rel="stylesheet" type="text/css" href="__ROOT__/Addons/Cms/View/Public/style/mui.min.css">
-	<script type="text/javascript" src="__ROOT__/Addons/Cms/View/Public/js/data-moment.js"></script>
-	<script type="text/javascript" src="__ROOT__/Addons/Cms/View/Public/js/bootstrap-datetimepicker.js"></script>
-	<script src="__ROOT__/Addons/Cms/View/Public/js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="__ROOT__/Addons/Cms/View/Public/js/qrcode.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="__ROOT__/Addons/Cms/View/Public/js/token.js" type="text/javascript" charset="utf-8"></script>
-
+	<meta charset="UTF-8" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no" />
+	<!--<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />-->
+	<title>aaa</title>
 	<script type="text/javascript">
-        $(document).ready(function(){
-            if($(".iDate.date").length>0){
-                $(".iDate.date").datetimepicker({
-                    locale:"zh-cn",
-                    format:"YYYY-MM-DD",
-                    dayViewHeaderFormat:"YYYY年 MMMM"
-                });
-            }
-        })
+        var  Baseroot= "__ROOT__/";
+        document.ontouchmove = function(e){
+            e.preventDefault();
+        }
+        var kefuimg='{$kefu}';
+        var yjimg='{$yjimg}';
+        var xuanchuan1='{$xuanchuan1}';
+
 	</script>
+
+	<link rel="stylesheet" type="text/css" href="__ROOT__/Addons/Cms/View/Public/style/style.css">
+
+
 </head>
 
 <body>
-<!--导航条-->
-<!--<header class="mui-bar mui-bar-nav" style="position: fixed;">
 
-    <div class="col-xs-4 col-sm-4">
-        <if condition="$user.user_login eq ''">
-            <a style="color: white;line-height: 3.5rem;" class="pull-right" href="?a=login">登录</a>
-        <else />
-            <a style="color: white;line-height: 3.5rem;"><div id="login_name">{$user.user_login}</div></a>
-            <a style="color: white;line-height: 3.5rem;" class="pull-right" href="?g=user&m=login&a=logout">退出</a>
-        </if>
-    </div>
+<header class="l-hd" >
+	<div class="l-hd-left">
+		<span>代理ID:-</span>
+	</div>
+	<div class="l-hd-right2">
+		<a href="#check" class="btn-link">兑换</a>
+	</div>
+	<div class="l-hd-right">
+		<span>余额:￥<i>0</i><span class="cz-btn"></span></span>
+	</div>
+</header>
+<div id="ui-view" >
 
-</header>-->
-<div class='wx-btn mui-btn mui-btn-primary'>点击生成二维码分享</div>
-<div class="xcBox" id="xcBox">
-	<div id="qrcode"></div>
-	<canvas id="myCanvas"></canvas>
-</div>
-<center>
-	<span>日期：</span>
-	<div class="iDate date">
-		<input type="text">
-		<button type="button" class="addOn"></button>
+
+	<img src="" id="yj-img" style="display: none;"/>
+
+	<script>
+        $(function(){
+
+            $("#yj-img").attr('src',yjimg);
+
+        });
+
+
+	</script>
+	<div class="dl-content">
+		<div class="gzwm">
+			关注我们
+		</div>
+		<div class="dl-head" >
+			<p >生成二维码后长按保存图片到手机<br>
+				并分享给好友获取佣金(<span class="yj-text">佣金说明</span>)</p>
+		</div>
+		<div class="wx-btn">生成二维码</div>
+		<div class="xcBox" id="xcBox">
+			<div id="qrcode"></div>
+			<canvas id="myCanvas"></canvas>
+		</div>
+		<div class="dl-foot">
+		</div>
 	</div>
-	<div class="iDate date">
-		<input type="text">
-		<button type="button" class="addOn"></button>
+
+	<div class="l-layer-mask1"></div>
+	<div class="loading" style="display: none;">
+		<img src="/Addons/LdhQguess/View/Public/img/loading.gif"/>
 	</div>
-	<button class='mui-btn mui-btn-primary'>搜索</button>
-</center>
-<div style='padding: 10px 0 0 15px'>
-	总合计：<span>￥12312463718245</span>
-</div>
-<div class="mui-content">
-	<div class="mui-card">
-		<ul class="mui-table-view mui-table-view-chevron">
-			<li class="mui-table-view-cell">一级代理
-				<ul class="mui-table-view mui-table-view-chevron">
-					<li class="mui-table-view-cell">
-						<div class='mui-row'>
-							<div class='mui-col-sm-8 mui-col-xs-8'>sdfhskjdhf</div>
-							<div class='mui-col-sm-4 mui-col-xs-4'>￥234234</div>
-						</div>
-					</li>
-					<li class="mui-table-view-cell">一级合计：￥234234
-					</li>
-				</ul>
-			</li>
-		</ul>
+	<div class="cpm-mask" style="display: none;">
+		<img src="/Addons/Cms/View/Public/img/2w.jpg"  class="cpm-qrcode-view_img2">
+		<div class="mask-head" style="display: none;">
+			<div>关注我们：第一时间获取最新消息</div>
+			<div class="mask-close"></div>
+			<img src="/Addons/Cms/View/Public/img/2w.jpg"  class="cpm-qrcode-view_img">
+			<div style="color: #f96943;">长按图片识别二维码关注公众号</div>
+		</div>
 	</div>
+
 </div>
-<div class="mui-content">
-	<div class="mui-card">
-		<ul class="mui-table-view mui-table-view-chevron">
-			<li class="mui-table-view-cell">二级代理
-				<ul class="mui-table-view mui-table-view-chevron">
-					<li class="mui-table-view-cell">
-						<div class='mui-row'>
-							<div class='mui-col-sm-8 mui-col-xs-8'>sdfhskjdhf</div>
-							<div class='mui-col-sm-4 mui-col-xs-4'>￥234234</div>
-						</div>
-					</li>
-					<li class="mui-table-view-cell">
-						<div class='mui-row'>
-							<div class='mui-col-sm-8 mui-col-xs-8'>sdfhsk</div>
-							<div class='mui-col-sm-4 mui-col-xs-4'>￥234234</div>
-						</div>
-					</li>
-					<li class="mui-table-view-cell">
-						<div class='mui-row'>
-							<div class='mui-col-sm-8 mui-col-xs-8'>sdskjdhf</div>
-							<div class='mui-col-sm-4 mui-col-xs-4'>￥234234</div>
-						</div>
-					</li>
-					<li class="mui-table-view-cell">
-						<div class='mui-row'>
-							<div class='mui-col-sm-8 mui-col-xs-8'>sdfhskjdhfghfghfgf</div>
-							<div class='mui-col-sm-4 mui-col-xs-4'>￥234234</div>
-						</div>
-					</li>
-					<li class="mui-table-view-cell">二级合计：￥2342342342
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-</div>
-<div class="mui-content">
-	<div class="mui-card">
-		<ul class="mui-table-view mui-table-view-chevron">
-			<li class="mui-table-view-cell">三级代理
-				<ul class="mui-table-view mui-table-view-chevron">
-					<li class="mui-table-view-cell">
-						<div class='mui-row'>
-							<div class='mui-col-sm-8 mui-col-xs-8'>sdfhskjdhf</div>
-							<div class='mui-col-sm-4 mui-col-xs-4'>￥234234</div>
-						</div>
-					</li>
-					<li class="mui-table-view-cell">
-						<div class='mui-row'>
-							<div class='mui-col-sm-8 mui-col-xs-8'>sdfhskjdhf</div>
-							<div class='mui-col-sm-4 mui-col-xs-4'>￥234234</div>
-						</div>
-					</li>
-					<li class="mui-table-view-cell">三级合计：￥234234
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-</div>
-</body>
-<script>
-    //判断是否微信登录
-    if({$wechat}=='1'){
-        $(".singleCopyText").css('display','block');
-    }else{
-        $(".singleCopyText").css('display','none');
-    }
-    window.addEventListener('toggle', function(event) {
-        if (event.target.id === 'M_Toggle') {
-            var isActive = event.detail.isActive;
-            var table = document.querySelector('.mui-table-view');
-            var card = document.querySelector('.mui-card');
-            if (isActive) {
-                card.appendChild(table);
-                card.style.display = '';
-            } else {
-                var content = document.querySelector('.mui-content');
-                content.insertBefore(table, card);
-                card.style.display = 'none';
-            }
-        }
+
+
+
+
+<script src="__ROOT__/Addons/Cms/View/Public/js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="__ROOT__/Addons/Cms/View/Public/js/qrcode.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="__ROOT__/Addons/Cms/View/Public/js/token.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+    var img1;
+    var base64 = [];
+    var self = this;
+    var erw;
+    var a = $('.dl-content').height();
+    var b = $('.dl-content').width();
+    $('#myCanvas').attr("height", a);
+    $('#myCanvas').attr("width", b);
+    var apiHomeSrc = location.origin;
+    $('.yj-text').on("click", function() {
+        $('#yj-img').show()
     });
-
+    $('#yj-img').on("click", function() {
+        $(this).hide()
+    });
+    $.ajax({
+        type: "POST",
+        url: apiHomeSrc + '/addon/Cms/Mobile/query_getAgentCount',
+        contentType: "application/json",
+        dataType: "json",
+        beforeSend: function(request) {
+            request.setRequestHeader("X-Auth-Token", token)
+        },
+        success: function(data) {
+            console.log(data.data);
+            if(data.data != null) {
+                $(".dl-foot").html('<p>一级用户： <span>' + data.data[0] + '人</span></p><p>二级用户： <span>' + data.data[1] + '人</span></p><p>三级用户： <span>'+
+                    data.data[2] + '人</span></p><p>四级用户： <span>'+data.data[3] + '人</span></p><p>五级用户： <span>'+data.data[4] + '人</span></p>'+
+                    '<p>六级用户： <span>'+data.data[5] + '人</span></p>')
+            }
+        },
+        error: function(error) {}
+    });
     $('.wx-btn').on("click", function() {
         $(".loading").show();
         var params = {};
-        var apiHomeSrc = location.origin;
         $.ajax({
             type: "POST",
-            url: apiHomeSrc + '/addon/Cms/Mobile/user_userCodeUrl',
+            url: apiHomeSrc + '/addon/LdhQguess/Mobile/user_userCodeUrl',
             contentType: "application/json",
             data: JSON.stringify(params),
             dataType: "json",
@@ -196,7 +156,8 @@
             },
             error: function(error) {}
         })
-    });
+    })
+
     function setOtherRecord(data) {}
 
     function date(a, b) {
@@ -211,7 +172,7 @@
                 if(n == 1) {
                     img.src = img1.src
                 } else {
-                    img.src = "/Addons/Cms/View/Public/img/xuanchuan1.png" ;
+                    img.src = "/images/xuanchuan1.png" ;
                 }
                 img.onload = function() {
                     if(n == 1) {
@@ -238,7 +199,10 @@
     function convertCanvasToImage(canvas) {
         var image = new Image();
         image.src = canvas.toDataURL("image/png");
-        return image
+        return image;
     }
 </script>
+
+</body>
+
 </html>

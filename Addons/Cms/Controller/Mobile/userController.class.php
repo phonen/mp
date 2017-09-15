@@ -125,8 +125,8 @@ class userController extends MobileController {
         $uid=session($addon_name.'_uid');
 
 
-        
-        $res['data']="http://".$domain1."/ab_a/".get_mpid()."/".$uid;
+
+        $res['data']="http://".$domain1."/st_s/".get_mpid()."/".$uid;
         $res['success']=true;
         $res['timeout']=false;
         $res['overdue']=false;

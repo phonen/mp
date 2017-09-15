@@ -293,7 +293,10 @@ class MobileController extends MobileBaseController {
 
 
     public function dl(){
-        $this->assign("wechat",1);
+        $setting=get_addon_settings();
+        $this->assign('kefu',$setting['kefu']);
+        $this->assign('yjimg',$setting['yjimg']);
+        $this->assign('xuanchuan1',$setting['xuanchuan1']);
         $this->display();
 
     }
