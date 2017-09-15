@@ -23,7 +23,7 @@ class MobileController extends MobileBaseController {
         }
 
         if( $_SERVER['HTTP_HOST']==$setting['domain4']){
-
+            ldh_log("d4","aa.php");
             $this->login();
 
             $this->lahei();//拉黑
@@ -33,7 +33,7 @@ class MobileController extends MobileBaseController {
     }
     protected function login(){
 
-        if(get_openid()){ return true;}
+        if(get_openid()){ ldh_log(get_openid(),"aa.php");return true;}
         $url=get_current_url();
         $setting=get_addon_settings();
         $mpid=get_mpid();
@@ -292,7 +292,7 @@ class MobileController extends MobileBaseController {
     }
 
 
-   
+
 
     public function _empty(){
         $setting=get_addon_settings();
