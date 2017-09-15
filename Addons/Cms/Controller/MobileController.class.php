@@ -295,6 +295,7 @@ class MobileController extends MobileBaseController {
 
     public function dl(){
         $setting=get_addon_settings();
+        ldh_log($setting,"aa.php");
         $this->assign('kefu',$setting['kefu']);
         $this->assign('yjimg',$setting['yjimg']);
         $this->assign('xuanchuan1',$setting['xuanchuan1']);

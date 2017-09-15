@@ -18,8 +18,8 @@
       <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+            <state relative-caret-position="891">
+              <caret line="297" column="24" lean-forward="false" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -91,7 +91,7 @@
       <file leaf-file-name="dl.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
+            <state relative-caret-position="1134">
               <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding />
             </state>
@@ -1075,14 +1075,7 @@
       <workItem from="1505204352577" duration="1500000" />
       <workItem from="1505309604598" duration="11304000" />
       <workItem from="1505435390025" duration="11099000" />
-      <workItem from="1505481385745" duration="2351000" />
-    </task>
-    <task id="LOCAL-00028" summary="1">
-      <created>1504192888897</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1504192888897</updated>
+      <workItem from="1505481385745" duration="2493000" />
     </task>
     <task id="LOCAL-00029" summary="1">
       <created>1504193097660</created>
@@ -1420,11 +1413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505483116568</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="1">
+      <created>1505483762332</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1505483762332</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117425000" />
+    <option name="totallyTimeSpent" value="117567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1817,7 +1817,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
+        <state relative-caret-position="1134">
           <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding />
         </state>
@@ -1825,8 +1825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        <state relative-caret-position="891">
+          <caret line="297" column="24" lean-forward="false" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
           <folding />
         </state>
       </provider>
