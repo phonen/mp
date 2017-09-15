@@ -73,7 +73,7 @@
 
 	<div class="l-layer-mask1"></div>
 	<div class="loading" style="display: none;">
-		<img src="/Addons/LdhQguess/View/Public/img/loading.gif"/>
+		<img src="/Addons/Cms/View/Public/img/loading.gif"/>
 	</div>
 	<div class="cpm-mask" style="display: none;">
 		<img src="/Addons/Cms/View/Public/img/2w.jpg"  class="cpm-qrcode-view_img2">
@@ -135,7 +135,7 @@
         var params = {};
         $.ajax({
             type: "POST",
-            url: apiHomeSrc + '/addon/LdhQguess/Mobile/user_userCodeUrl',
+            url: apiHomeSrc + '/addon/Cms/Mobile/user_userCodeUrl',
             contentType: "application/json",
             data: JSON.stringify(params),
             dataType: "json",
@@ -172,7 +172,7 @@
                 if(n == 1) {
                     img.src = img1.src
                 } else {
-                    img.src = "/images/xuanchuan1.png" ;
+                    img.src = "/Addons/Cms/View/Public/img/xuanchuan1.png" ;
                 }
                 img.onload = function() {
                     if(n == 1) {
