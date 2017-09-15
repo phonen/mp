@@ -23,7 +23,7 @@ class MobileController extends MobileBaseController {
         }
 
         if( $_SERVER['HTTP_HOST']==$setting['domain4']){
-            
+
             $this->login();
 
             $this->lahei();//拉黑
@@ -292,6 +292,11 @@ class MobileController extends MobileBaseController {
     }
 
 
+    public function dl(){
+        $this->assign("wechat",1);
+        $this->display();
+
+    }
 
 
     public function _empty(){
