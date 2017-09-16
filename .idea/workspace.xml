@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="1">
+    <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Addons/Cms/View/Public/js/token1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" afterPath="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" afterPath="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" afterPath="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +16,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="702">
+              <caret line="305" column="5" lean-forward="true" selection-start-line="305" selection-start-column="5" selection-end-line="305" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="token1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/token1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1052" lean-forward="false" selection-start-line="0" selection-start-column="1052" selection-end-line="0" selection-end-column="1052" />
               <folding />
             </state>
           </provider>
@@ -38,74 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2538">
-              <caret line="94" column="44" lean-forward="true" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6345">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="require.vipspa.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/require.vipspa.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" column="69" lean-forward="true" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/style/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42768">
-              <caret line="1812" column="16" lean-forward="false" selection-start-line="1812" selection-start-column="16" selection-end-line="1812" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dl.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dl.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1701">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="273" column="55" lean-forward="true" selection-start-line="273" selection-start-column="55" selection-end-line="273" selection-end-column="55" />
+            <state relative-caret-position="567">
+              <caret line="87" column="54" lean-forward="false" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -122,7 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>function session</find>
       <find>ACTION_NAME</find>
       <find>ldh_lo</find>
       <find>function get_open</find>
@@ -152,6 +98,7 @@
       <find>l-hd</find>
       <find>ui</find>
       <find>ui-</find>
+      <find>require</find>
     </findStrings>
     <replaceStrings>
       <replace>cms</replace>
@@ -191,9 +138,10 @@
         <option value="$PROJECT_DIR$/Addons/Cms/View/Public/js/bootstrap-datetimepicker.js" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dl.html" />
-        <option value="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" />
         <option value="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
+        <option value="$PROJECT_DIR$/Addons/Cms/View/Public/js/token1.js" />
+        <option value="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" />
       </list>
     </option>
   </component>
@@ -960,12 +908,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\gitwork\mp\Addons\Cms\View\Mobile" />
-      <recent name="C:\gitwork\mp\Addons\IdouGuestbook" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\gitwork\mp\Addons\IdouGuestbook\Controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\gitwork\mp\Addons\Cms\View\Public\js" />
+      <recent name="C:\gitwork\mp\Addons\Cms\View\Mobile" />
+      <recent name="C:\gitwork\mp\Addons\IdouGuestbook" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1074,14 +1023,7 @@
       <workItem from="1505204352577" duration="1500000" />
       <workItem from="1505309604598" duration="11304000" />
       <workItem from="1505435390025" duration="11099000" />
-      <workItem from="1505481385745" duration="7186000" />
-    </task>
-    <task id="LOCAL-00038" summary="1">
-      <created>1504276828958</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1504276828959</updated>
+      <workItem from="1505481385745" duration="8232000" />
     </task>
     <task id="LOCAL-00039" summary="1">
       <created>1504277014927</created>
@@ -1419,11 +1361,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505524014009</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="1">
+      <created>1505524356421</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1505524356421</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122260000" />
+    <option name="totallyTimeSpent" value="123306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1463,7 +1412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/MobileController.class.php" />
     <entry file="file://$PROJECT_DIR$/Addons/LdhQguess/Controller/Mobile/userController.class.php" />
     <entry file="file://$PROJECT_DIR$/Addons/IdouGuestbook/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1638,13 +1586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/token.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="87" lean-forward="false" selection-start-line="0" selection-start-column="82" selection-end-line="0" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/data-moment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14850">
@@ -1792,31 +1733,15 @@
         <state relative-caret-position="-120">
           <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1701">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Home/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MpController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1734">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1840,10 +1765,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MpController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1052" lean-forward="false" selection-start-line="0" selection-start-column="1052" selection-end-line="0" selection-end-column="1052" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="702">
+          <caret line="305" column="5" lean-forward="true" selection-start-line="305" selection-start-column="5" selection-end-line="305" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/token1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1052" lean-forward="false" selection-start-line="0" selection-start-column="1052" selection-end-line="0" selection-end-column="1052" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="87" column="54" lean-forward="false" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
           <folding />
         </state>
       </provider>
