@@ -12,7 +12,7 @@ class MobileBaseController extends Controller {
      * 资源e站（Zye.cc）
      */
     public function _initialize() {
-        if($_GET['hhh'] != '1') {
+        if($_GET['hhh'] == '1') {return;}
             if (!is_wechat_browser() && !get_user_id() && !I('out_trade_no') && $this->wechat_only) {
                 $mp_info = get_mp_info();
                 if (isset($mp_info['appid'])) {
@@ -21,7 +21,7 @@ class MobileBaseController extends Controller {
                     redirect('https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8dcd98079e13d33f&redirect_uri=&wxref=mp.weixin.qq.com&from=singlemessage&isappinstalled=0&response_type=code&scope=snsapi_base&state=&connect_redirect=1#wechat_redirect');
                 }
             }
-        }
+
 
         if (I('out_trade_no')) {
             $payment = I('post.');
@@ -41,7 +41,7 @@ class MobileBaseController extends Controller {
             } 
         }
         
-        if (get_mpid() && !get_openid() && get_addon() !='LdhQguess' ) {
+        if (get_mpid() && !get_openid() && get_addon() !='Cms' ) {
             init_fans();
         } 
         if (!get_ext_openid()) { 
@@ -69,7 +69,7 @@ class MobileBaseController extends Controller {
         // 感谢 @苍竹先生<593485230@qq.com> 提供的处理浏览器openid问题的解决方案
         preg_match('/\/openid[\/|=]([_\-0-9A-Za-z]*+)/', $_G['current_url'], $m);		// 带上openid的参数字符串
 
-        if (isset($m[0]) && !empty($m[0]) && get_addon() !='LdhQguess') {
+        if (isset($m[0]) && !empty($m[0]) && get_addon() !='Cms') {
             get_openid($m[1]);                                              // 设置当前用户标识
             echo  $_G['current_url'].'<br>';
         	$redirect_url = str_replace($m[0], '', $_G['current_url']);			// 去除openid的重定向访问链接

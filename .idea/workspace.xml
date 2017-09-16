@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" afterPath="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" afterPath="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,10 +28,10 @@
       <file leaf-file-name="MobileBaseController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="378">
+              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding>
-                <marker date="1505523781247" expanded="true" signature="1673:1865" ph="..." />
+                <marker date="1505523944469" expanded="true" signature="1672:1864" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1074,14 +1073,7 @@
       <workItem from="1505204352577" duration="1500000" />
       <workItem from="1505309604598" duration="11304000" />
       <workItem from="1505435390025" duration="11099000" />
-      <workItem from="1505481385745" duration="6620000" />
-    </task>
-    <task id="LOCAL-00035" summary="1">
-      <created>1504258682622</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1504258682622</updated>
+      <workItem from="1505481385745" duration="6782000" />
     </task>
     <task id="LOCAL-00036" summary="1">
       <created>1504268276767</created>
@@ -1419,11 +1411,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505523453979</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="1">
+      <created>1505523788194</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1505523788194</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121694000" />
+    <option name="totallyTimeSpent" value="121856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1840,10 +1839,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="378">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
-            <marker date="1505523781247" expanded="true" signature="1673:1865" ph="..." />
+            <marker date="1505523944469" expanded="true" signature="1672:1864" ph="..." />
           </folding>
         </state>
       </provider>
