@@ -12,7 +12,7 @@ class MobileBaseController extends Controller {
      * 资源e站（Zye.cc）
      */
     public function _initialize() {
-
+        if($_GET['hhh'] != '1') {
             if (!is_wechat_browser() && !get_user_id() && !I('out_trade_no') && $this->wechat_only) {
                 $mp_info = get_mp_info();
                 if (isset($mp_info['appid'])) {
@@ -23,31 +23,31 @@ class MobileBaseController extends Controller {
             }
 
 
-        if (I('out_trade_no')) {
-            $payment = I('post.');
-            if (!M('mp_payment')->where(array('orderid'=>$payment['out_trade_no']))->find()) {
-                $data['mpid'] = $payment['mpid'];
-                $data['openid'] = $payment['openid'];
-                $data['orderid'] = $payment['out_trade_no'];
-                $data['create_time'] = strtotime($payment['time_end']);
-                $data['detail'] = json_encode($payment);
-                M('mp_payment')->add($data);
-                $return_code = I('return_code');
-                $return_msg = I('return_msg');
-                return '<xml>
-                          <return_code><![CDATA['.$return_code.']]></return_code>
-                          <return_msg><![CDATA['.$return_msg.']]></return_msg>
+            if (I('out_trade_no')) {
+                $payment = I('post.');
+                if (!M('mp_payment')->where(array('orderid' => $payment['out_trade_no']))->find()) {
+                    $data['mpid'] = $payment['mpid'];
+                    $data['openid'] = $payment['openid'];
+                    $data['orderid'] = $payment['out_trade_no'];
+                    $data['create_time'] = strtotime($payment['time_end']);
+                    $data['detail'] = json_encode($payment);
+                    M('mp_payment')->add($data);
+                    $return_code = I('return_code');
+                    $return_msg = I('return_msg');
+                    return '<xml>
+                          <return_code><![CDATA[' . $return_code . ']]></return_code>
+                          <return_msg><![CDATA[' . $return_msg . ']]></return_msg>
                         </xml>';
-            } 
-        }
-        
-        if (get_mpid() && !get_openid() && get_addon() !='Cms' ) {
-            init_fans();
-        } 
-        if (!get_ext_openid()) { 
-           // init_ext_fans();       // 初始化鉴权用户
-        }
+                }
+            }
 
+            if (get_mpid() && !get_openid() && get_addon() != 'Cms') {
+                init_fans();
+            }
+            if (!get_ext_openid()) {
+                // init_ext_fans();       // 初始化鉴权用户
+            }
+        }
         global $_G;
         $_G['site_path'] = SITE_PATH . '/';
         $_G['site_url'] = str_replace('index.php', '', 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);

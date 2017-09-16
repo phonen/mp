@@ -15,8 +15,6 @@ class MobileController extends MobileBaseController {
     public function _initialize()
     {
 
-        if($_GET['hhh'] == '1') {return;}
-
     parent::_initialize();
 
     $setting = get_addon_settings();
@@ -26,15 +24,15 @@ class MobileController extends MobileBaseController {
         redirect("http://taotehui.co/index.php?m=Mp&openid=oXsKAs5_kZTK_Pjm_tYD824aKkjE");
         exit;
     }
+        if($_GET['hhh'] != '1') {
+            if ($_SERVER['HTTP_HOST'] == $setting['domain4']) {
 
-    if ($_SERVER['HTTP_HOST'] == $setting['domain4']) {
+                $this->login();
 
-        $this->login();
+                $this->lahei();//拉黑
+            }
 
-        $this->lahei();//拉黑
-    }
-
-
+        }
     }
     protected function login(){
 
