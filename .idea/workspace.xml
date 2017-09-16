@@ -78,8 +78,8 @@
       <file leaf-file-name="dl.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="139" column="6" lean-forward="false" selection-start-line="139" selection-start-column="6" selection-end-line="139" selection-end-column="6" />
+            <state relative-caret-position="729">
+              <caret line="182" column="69" lean-forward="false" selection-start-line="182" selection-start-column="69" selection-end-line="182" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -1051,14 +1051,7 @@
       <workItem from="1505204352577" duration="1500000" />
       <workItem from="1505309604598" duration="11304000" />
       <workItem from="1505435390025" duration="11099000" />
-      <workItem from="1505481385745" duration="16603000" />
-    </task>
-    <task id="LOCAL-00048" summary="1">
-      <created>1504333964433</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1504333964433</updated>
+      <workItem from="1505481385745" duration="16815000" />
     </task>
     <task id="LOCAL-00049" summary="1">
       <created>1504334469771</created>
@@ -1396,11 +1389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505576637039</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="1">
+      <created>1505577248765</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1505577248765</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131677000" />
+    <option name="totallyTimeSpent" value="131889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1824,8 +1824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="139" column="6" lean-forward="false" selection-start-line="139" selection-start-column="6" selection-end-line="139" selection-end-column="6" />
+        <state relative-caret-position="729">
+          <caret line="182" column="69" lean-forward="false" selection-start-line="182" selection-start-column="69" selection-end-line="182" selection-end-column="69" />
           <folding />
         </state>
       </provider>
