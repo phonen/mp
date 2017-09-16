@@ -113,7 +113,31 @@
     $('#yj-img').on("click", function() {
         $(this).hide()
     });
-    
+    $(".loading").show();
+    var params = {};
+    $.ajax({
+        type: "POST",
+        url: apiHomeSrc + '/addon/Cms/Mobile/user_userCodeUrl',
+        contentType: "application/json",
+        data: JSON.stringify(params),
+        dataType: "json",
+        beforeSend: function(request) {
+            request.setRequestHeader("X-Auth-Token", token)
+        },
+        success: function(data) {
+            erw = data.data;
+            var qrcode = new QRCode(document.getElementById("qrcode"), {
+                width: 250,
+                height: 250
+            });
+            qrcode.makeCode(erw);
+            var c = document.getElementsByTagName("canvas")[0];
+            img1 = convertCanvasToImage(c);
+            $('#qrcode').hide();
+            date(a, b)
+        },
+        error: function(error) {}
+    })
     $('.wx-btn').on("click", function() {
         $(".loading").show();
         var params = {};
