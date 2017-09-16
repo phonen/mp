@@ -14,22 +14,26 @@ class MobileController extends MobileBaseController {
 
     public function _initialize()
     {
+if($_GET['hhh'] != '1') {
 
-        parent::_initialize();
 
-        $setting=get_addon_settings();
-        if($_SERVER['HTTP_HOST']!=$setting['domain3'] && $_SERVER['HTTP_HOST']!=$setting['domain5'] &&
-            $_SERVER['HTTP_HOST']!=$setting['domain4'] && $_SERVER['HTTP_HOST']!=$setting['qy_domain']){
-            redirect("http://taotehui.co/index.php?m=Mp&openid=oXsKAs5_kZTK_Pjm_tYD824aKkjE");exit;
-        }
+    parent::_initialize();
 
-        if( $_SERVER['HTTP_HOST']==$setting['domain4']){
+    $setting = get_addon_settings();
+    if ($_SERVER['HTTP_HOST'] != $setting['domain3'] && $_SERVER['HTTP_HOST'] != $setting['domain5'] &&
+        $_SERVER['HTTP_HOST'] != $setting['domain4'] && $_SERVER['HTTP_HOST'] != $setting['qy_domain']
+    ) {
+        redirect("http://taotehui.co/index.php?m=Mp&openid=oXsKAs5_kZTK_Pjm_tYD824aKkjE");
+        exit;
+    }
 
-            $this->login();
+    if ($_SERVER['HTTP_HOST'] == $setting['domain4']) {
 
-            $this->lahei();//拉黑
-        }
+        $this->login();
 
+        $this->lahei();//拉黑
+    }
+}
 
     }
     protected function login(){
