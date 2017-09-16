@@ -15,7 +15,7 @@ class MobileController extends MobileBaseController {
     public function _initialize()
     {
 
-
+        if($_GET['hhh'] == '1') {return;}
 
     parent::_initialize();
 

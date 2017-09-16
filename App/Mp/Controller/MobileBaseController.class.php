@@ -12,7 +12,7 @@ class MobileBaseController extends Controller {
      * 资源e站（Zye.cc）
      */
     public function _initialize() {
-        if($_GET['hhh'] == '1') {return;}
+
             if (!is_wechat_browser() && !get_user_id() && !I('out_trade_no') && $this->wechat_only) {
                 $mp_info = get_mp_info();
                 if (isset($mp_info['appid'])) {
