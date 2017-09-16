@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="">
+    <list default="true" id="22918be0-096b-4573-9d62-dba2ba1a0061" name="Default" comment="1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" afterPath="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" afterPath="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" afterPath="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +16,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="292" column="7" lean-forward="true" selection-start-line="292" selection-start-column="7" selection-end-line="292" selection-end-column="7" />
+            <state relative-caret-position="-6696">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,19 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MobileBaseController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-              <folding>
-                <marker date="1505524350183" expanded="true" signature="1714:1914" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dl.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dl.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
@@ -167,10 +156,10 @@
         <option value="$PROJECT_DIR$/Addons/Cms/View/Public/js/bootstrap-datetimepicker.js" />
         <option value="$PROJECT_DIR$/Addons/Cms/Controller/Mobile/userController.class.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dl.html" />
-        <option value="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/View/Public/js/token1.js" />
-        <option value="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
         <option value="$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html" />
+        <option value="$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php" />
+        <option value="$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php" />
       </list>
     </option>
   </component>
@@ -1052,14 +1041,7 @@
       <workItem from="1505204352577" duration="1500000" />
       <workItem from="1505309604598" duration="11304000" />
       <workItem from="1505435390025" duration="11099000" />
-      <workItem from="1505481385745" duration="10618000" />
-    </task>
-    <task id="LOCAL-00042" summary="1">
-      <created>1504284160222</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1504284160222</updated>
+      <workItem from="1505481385745" duration="10784000" />
     </task>
     <task id="LOCAL-00043" summary="1">
       <created>1504284395498</created>
@@ -1397,11 +1379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505533310874</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="1">
+      <created>1505533547949</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1505533547950</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125692000" />
+    <option name="totallyTimeSpent" value="125858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1725,16 +1714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <marker date="1505524350183" expanded="true" signature="1714:1914" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MpController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-81">
@@ -1783,26 +1762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="292" column="7" lean-forward="true" selection-start-line="292" selection-start-column="7" selection-end-line="292" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/vipspa.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="147" lean-forward="false" selection-start-line="0" selection-start-column="147" selection-end-line="0" selection-end-column="147" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/dl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="59" column="73" lean-forward="true" selection-start-line="59" selection-start-column="73" selection-end-line="59" selection-end-column="73" />
           <folding />
         </state>
       </provider>
@@ -1823,10 +1786,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/Mp/Controller/MobileBaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <marker date="1505533683003" expanded="true" signature="1681:1881" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/dl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="59" column="73" lean-forward="true" selection-start-line="59" selection-start-column="73" selection-end-line="59" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="113" lean-forward="false" selection-start-line="25" selection-start-column="113" selection-end-line="25" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6696">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>

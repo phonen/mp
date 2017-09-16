@@ -24,7 +24,7 @@ class MobileController extends MobileBaseController {
         redirect("http://taotehui.co/index.php?m=Mp&openid=oXsKAs5_kZTK_Pjm_tYD824aKkjE");
         exit;
     }
-        if($_GET['hhh'] != '1') {
+
             if ($_SERVER['HTTP_HOST'] == $setting['domain4']) {
 
                 $this->login();
@@ -32,7 +32,7 @@ class MobileController extends MobileBaseController {
                 $this->lahei();//拉黑
             }
 
-        }
+
     }
     protected function login(){
 

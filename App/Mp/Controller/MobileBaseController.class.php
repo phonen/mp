@@ -12,7 +12,7 @@ class MobileBaseController extends Controller {
      * 资源e站（Zye.cc）
      */
     public function _initialize() {
-        if($_GET['hhh'] != '1') {
+
             if (!is_wechat_browser() && !get_user_id() && !I('out_trade_no') && $this->wechat_only) {
                 $mp_info = get_mp_info();
                 if (isset($mp_info['appid'])) {
@@ -47,7 +47,7 @@ class MobileBaseController extends Controller {
             if (!get_ext_openid()) {
                 // init_ext_fans();       // 初始化鉴权用户
             }
-        }
+
         global $_G;
         $_G['site_path'] = SITE_PATH . '/';
         $_G['site_url'] = str_replace('index.php', '', 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);
