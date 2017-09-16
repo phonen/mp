@@ -14,7 +14,7 @@ class MobileController extends MobileBaseController {
 
     public function _initialize()
     {
-if($_GET['hhh'] != '1') {
+
 
 
     parent::_initialize();
@@ -33,7 +33,7 @@ if($_GET['hhh'] != '1') {
 
         $this->lahei();//拉黑
     }
-}
+
 
     }
     protected function login(){

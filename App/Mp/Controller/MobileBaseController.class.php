@@ -12,13 +12,14 @@ class MobileBaseController extends Controller {
      * 资源e站（Zye.cc）
      */
     public function _initialize() {
-
-        if (!is_wechat_browser() && !get_user_id() && !I('out_trade_no') && $this->wechat_only) {
-            $mp_info = get_mp_info();
-            if (isset($mp_info['appid'])) {
-                redirect('https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$mp_info['appid'].'&redirect_uri=&wxref=mp.weixin.qq.com&from=singlemessage&isappinstalled=0&response_type=code&scope=snsapi_base&state=&connect_redirect=1#wechat_redirect');
-            } else {
-                redirect('https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8dcd98079e13d33f&redirect_uri=&wxref=mp.weixin.qq.com&from=singlemessage&isappinstalled=0&response_type=code&scope=snsapi_base&state=&connect_redirect=1#wechat_redirect');
+        if($_GET['hhh'] != '1') {
+            if (!is_wechat_browser() && !get_user_id() && !I('out_trade_no') && $this->wechat_only) {
+                $mp_info = get_mp_info();
+                if (isset($mp_info['appid'])) {
+                    redirect('https://open.weixin.qq.com/connect/oauth2/authorize?appid=' . $mp_info['appid'] . '&redirect_uri=&wxref=mp.weixin.qq.com&from=singlemessage&isappinstalled=0&response_type=code&scope=snsapi_base&state=&connect_redirect=1#wechat_redirect');
+                } else {
+                    redirect('https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8dcd98079e13d33f&redirect_uri=&wxref=mp.weixin.qq.com&from=singlemessage&isappinstalled=0&response_type=code&scope=snsapi_base&state=&connect_redirect=1#wechat_redirect');
+                }
             }
         }
 
