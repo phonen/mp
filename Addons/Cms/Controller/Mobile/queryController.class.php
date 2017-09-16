@@ -1,7 +1,7 @@
 <?php
 
-namespace Addons\LdhQguess\Controller\Mobile;
-use Addons\LdhQguess\Controller\MobileController;
+namespace Addons\Cms\Controller\Mobile;
+use Addons\Cms\Controller\MobileController;
 
 /**
  * QQ在线竞猜移动端控制器
@@ -129,6 +129,10 @@ class queryController extends MobileController {
         $res['currentDate']=get_microtime();
 
         $this->ajaxReturn($res);
+
+    }
+
+    public function getProxyEffect(){
 
     }
 }

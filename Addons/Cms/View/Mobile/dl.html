@@ -31,20 +31,28 @@
 
 <header class="l-hd" >
 	<div class="l-hd-left">
-		<span>代理ID:-</span>
+		<span>ID:-</span>
 	</div>
 	<div class="l-hd-right2">
-		<a href="#check" class="btn-link">兑换</a>
+		<a href="#check" class="btn-link">t</a>
 	</div>
 	<div class="l-hd-right">
-		<span>余额:￥<i>0</i><span class="cz-btn"></span></span>
+		<span>y:<i>0</i><span class="cz-btn"></span></span>
 	</div>
 </header>
 
 
 
 	<img src="" id="yj-img" style="display: none;"/>
+<script>
+    $(function(){
 
+        $("#yj-img").attr('src',yjimg);
+
+    });
+
+
+</script>
 	<div class="dl-content">
 		<div class="gzwm">
 			关注我们
@@ -105,19 +113,24 @@
     });
     $.ajax({
         type: "POST",
-        url: apiHomeSrc + '/addon/Cms/Mobile/query_getAgentCount',
+        url: apiHomeSrc + '/addon/Cms/Mobile/user_userCodeUrl',
         contentType: "application/json",
+        data: JSON.stringify(params),
         dataType: "json",
         beforeSend: function(request) {
             request.setRequestHeader("X-Auth-Token", token)
         },
         success: function(data) {
-            console.log(data.data);
-            if(data.data != null) {
-                $(".dl-foot").html('<p>一级用户： <span>' + data.data[0] + '人</span></p><p>二级用户： <span>' + data.data[1] + '人</span></p><p>三级用户： <span>'+
-                    data.data[2] + '人</span></p><p>四级用户： <span>'+data.data[3] + '人</span></p><p>五级用户： <span>'+data.data[4] + '人</span></p>'+
-                    '<p>六级用户： <span>'+data.data[5] + '人</span></p>')
-            }
+            erw = data.data;
+            var qrcode = new QRCode(document.getElementById("qrcode"), {
+                width: 250,
+                height: 250
+            });
+            qrcode.makeCode(erw);
+            var c = document.getElementsByTagName("canvas")[0];
+            img1 = convertCanvasToImage(c);
+            $('#qrcode').hide();
+            date(a, b)
         },
         error: function(error) {}
     });
