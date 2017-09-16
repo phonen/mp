@@ -290,8 +290,8 @@ class MobileController extends MobileBaseController {
         $url = "http://kele.alicdn1.com/index.php?r=index/wap&pid=" . $pid;
         ldh_log($url,"aa.php");
         //$url = "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxMTU2MDAzMA==&scene=124#wechat_redirect";
-        redirect($url);
-       //$this->display();
+       // redirect($url);
+       $this->display();
     }
 
 
