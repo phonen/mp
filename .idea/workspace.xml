@@ -58,28 +58,8 @@
       <file leaf-file-name="dl.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Public/js/dl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dl.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="114" column="20" lean-forward="false" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+            <state relative-caret-position="675">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="36" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -90,6 +70,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="879">
               <caret line="134" column="34" lean-forward="true" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dl.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="75" column="8" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1061,14 +1051,7 @@
       <workItem from="1505204352577" duration="1500000" />
       <workItem from="1505309604598" duration="11304000" />
       <workItem from="1505435390025" duration="11099000" />
-      <workItem from="1505481385745" duration="13970000" />
-    </task>
-    <task id="LOCAL-00045" summary="1">
-      <created>1504284834161</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1504284834161</updated>
+      <workItem from="1505481385745" duration="14413000" />
     </task>
     <task id="LOCAL-00046" summary="1">
       <created>1504286406124</created>
@@ -1406,11 +1389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505572347184</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="1">
+      <created>1505572585094</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1505572585094</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129044000" />
+    <option name="totallyTimeSpent" value="129487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1808,10 +1798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dl.html">
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/Mobile/queryController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="879">
+          <caret line="134" column="34" lean-forward="true" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1824,10 +1814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/Mobile/queryController.class.php">
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/views/dl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="879">
-          <caret line="134" column="34" lean-forward="true" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="34" />
+        <state relative-caret-position="675">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="36" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1835,7 +1825,7 @@
     <entry file="file://$PROJECT_DIR$/Addons/Cms/View/Mobile/dl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
-          <caret line="114" column="20" lean-forward="false" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+          <caret line="75" column="8" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
           <folding />
         </state>
       </provider>
