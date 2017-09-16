@@ -54,6 +54,7 @@
 
 </script>
 	<div class="dl-content">
+		<a href="http://tth.alicdn1.com/admin">点击登陆后台</a>
 		<div class="gzwm">
 			关注我们
 		</div>
@@ -73,7 +74,7 @@
 	<div class="l-nav-bottom">
 
 		<div class="icon-item active"><span class="icon-item-04">代理赚钱</span></div>
-		
+
 	</div>
 </div>
 	<div class="l-layer-mask1"></div>
@@ -112,31 +113,7 @@
     $('#yj-img').on("click", function() {
         $(this).hide()
     });
-    $(".loading").show();
-    var params = {};
-    $.ajax({
-        type: "POST",
-        url: apiHomeSrc + '/addon/Cms/Mobile/user_userCodeUrl',
-        contentType: "application/json",
-        data: JSON.stringify(params),
-        dataType: "json",
-        beforeSend: function(request) {
-            request.setRequestHeader("X-Auth-Token", token)
-        },
-        success: function(data) {
-            erw = data.data;
-            var qrcode = new QRCode(document.getElementById("qrcode"), {
-                width: 250,
-                height: 250
-            });
-            qrcode.makeCode(erw);
-            var c = document.getElementsByTagName("canvas")[0];
-            img1 = convertCanvasToImage(c);
-            $('#qrcode').hide();
-            date(a, b)
-        },
-        error: function(error) {}
-    });
+    
     $('.wx-btn').on("click", function() {
         $(".loading").show();
         var params = {};
