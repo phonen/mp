@@ -111,6 +111,8 @@
     $('#yj-img').on("click", function() {
         $(this).hide()
     });
+    $(".loading").show();
+    var params = {};
     $.ajax({
         type: "POST",
         url: apiHomeSrc + '/addon/Cms/Mobile/user_userCodeUrl',
