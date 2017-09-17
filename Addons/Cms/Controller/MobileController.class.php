@@ -298,9 +298,11 @@ class MobileController extends MobileBaseController {
     public function dl(){
         $setting=get_addon_settings();
         ldh_log($setting,"aa.php");
+        $proxy = get_proxy(get_mpid(),get_openid());
         $this->assign('kefu',$setting['kefu']);
         $this->assign('yjimg',$setting['yjimg']);
         $this->assign('xuanchuan1',$setting['xuanchuan1']);
+        $this->assigned("proxyid",$proxy);
         $this->display();
 
     }
