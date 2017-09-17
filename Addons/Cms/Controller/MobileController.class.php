@@ -302,7 +302,7 @@ class MobileController extends MobileBaseController {
         $this->assign('kefu',$setting['kefu']);
         $this->assign('yjimg',$setting['yjimg']);
         $this->assign('xuanchuan1',$setting['xuanchuan1']);
-        $this->assigned("proxyid",$proxy);
+        $this->assign("proxyid",$proxy);
         $this->display();
 
     }
