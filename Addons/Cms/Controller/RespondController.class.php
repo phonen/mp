@@ -106,6 +106,14 @@ class RespondController extends ApiController {
 
                         }
                         else reply_text("1");
+                        $articles = array(
+                            "0"=>array(
+                                'Title'=>'商城首页',
+                                'Description'=>'进入商城，更多优惠券！',
+                                'PicUrl'=>'http://www.domain.com/1.jpg',
+                                'Url'=>'http://exsde.com/1.jsp'
+                            )
+                        );
                     }
 
                 }
