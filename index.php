@@ -22,8 +22,8 @@ if (!is_file(SITE_PATH.'/Data/install.lock')) {				// 如果框架未安装，�
 }
 
 $_G = array();				// 声明全局变量
-
-require THINK_PATH . 'ThinkPHP.php';							// 引入ThinkPHP入口文件
+echo NOW_TIME;
+//require THINK_PATH . 'ThinkPHP.php';							// 引入ThinkPHP入口文件
 
 
 ?>
