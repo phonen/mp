@@ -1,5 +1,6 @@
 <?php
- 
+ini_set("display_errors","On");
+error_reporting(E_ALL);
 /**
  * 应用入口文件
  */
