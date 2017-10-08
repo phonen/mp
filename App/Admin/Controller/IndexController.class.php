@@ -14,9 +14,9 @@ class IndexController extends BaseController {
 	 * 资源e站（Zye.cc）
 	 */
 	public function index() {
-	    echo "aaaa";
+
         $this->assign('meta_title', '后台首页');
-		//$this->display();
+		$this->display();
 	}
 }
 
