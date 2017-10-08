@@ -1,6 +1,4 @@
 <?php
-ini_set("display_errors","On");
-error_reporting(E_ALL);
 /**
  * 应用入口文件
  */
@@ -22,7 +20,7 @@ if (!is_file(SITE_PATH.'/Data/install.lock')) {				// 如果框架未安装，�
 }
 
 $_G = array();				// 声明全局变量
-//echo NOW_TIME;
+
 require THINK_PATH . 'ThinkPHP.php';							// 引入ThinkPHP入口文件
 
 
