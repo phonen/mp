@@ -28,8 +28,8 @@
       <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="804">
-              <caret line="217" column="63" lean-forward="false" selection-start-line="217" selection-start-column="63" selection-end-line="217" selection-end-column="63" />
+            <state relative-caret-position="480">
+              <caret line="205" column="11" lean-forward="false" selection-start-line="205" selection-start-column="11" selection-end-line="205" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -945,14 +945,7 @@
       <workItem from="1507478607859" duration="3715000" />
       <workItem from="1507770203331" duration="609000" />
       <workItem from="1507810754755" duration="637000" />
-      <workItem from="1507865385595" duration="4466000" />
-    </task>
-    <task id="LOCAL-00067" summary="1">
-      <created>1505398790387</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1505398790387</updated>
+      <workItem from="1507865385595" duration="5096000" />
     </task>
     <task id="LOCAL-00068" summary="1">
       <created>1505405740806</created>
@@ -1290,11 +1283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507962630234</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="1">
+      <created>1507962903015</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1507962903016</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167080000" />
+    <option name="totallyTimeSpent" value="167710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
@@ -1703,8 +1703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="217" column="63" lean-forward="false" selection-start-line="217" selection-start-column="63" selection-end-line="217" selection-end-column="63" />
+        <state relative-caret-position="480">
+          <caret line="205" column="11" lean-forward="false" selection-start-line="205" selection-start-column="11" selection-end-line="205" selection-end-column="11" />
           <folding />
         </state>
       </provider>
