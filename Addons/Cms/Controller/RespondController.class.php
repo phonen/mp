@@ -202,7 +202,7 @@ class RespondController extends ApiController {
         //curl_setopt($ch, CURLOPT_PROXY, "http://111.222.333.4:110");
         curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_HTTPHEADER,array('Accept-Encoding: gzip, deflate'));
+        //curl_setopt($ch, CURLOPT_HTTPHEADER,array('Accept-Encoding: gzip, deflate'));
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
@@ -215,9 +215,9 @@ class RespondController extends ApiController {
         //$title = preg_match("/<title>(.*)<\/title>/isU", $file_contents, $temp) ? $temp[1] : "";
 
         // 非utf8编码时转码
-        if($charset != 'utf-8'){
-            $file_contents = iconv(strtoupper($charset), "UTF-8", $file_contents);
-        }
+        //if($charset != 'utf-8'){
+        //    $file_contents = iconv(strtoupper($charset), "UTF-8", $file_contents);
+        //}
         // 将结果记录到session中，方便下次直接读取
         $_SESSION[$key] = $file_contents;
 
