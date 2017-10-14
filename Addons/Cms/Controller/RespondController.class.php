@@ -207,13 +207,13 @@ class RespondController extends ApiController {
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
         $file_contents = curl_exec($ch);
-        ldh_log($file_contents,"aa.php");
+
         curl_close($ch);
 
         // 匹配出当前页的charset
         $charset = preg_match("/<meta.+?charset=[^\w]?([-\w]+)/i", $file_contents, $temp) ? strtolower($temp[1]) : "";
         //$title = preg_match("/<title>(.*)<\/title>/isU", $file_contents, $temp) ? $temp[1] : "";
-
+        ldh_log($charset,"aa.php");
         // 非utf8编码时转码
         //if($charset != 'utf-8'){
         //    $file_contents = iconv(strtoupper($charset), "UTF-8", $file_contents);
