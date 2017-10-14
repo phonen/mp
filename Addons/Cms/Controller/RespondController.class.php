@@ -102,6 +102,7 @@ class RespondController extends ApiController {
                             $data['proxy'] = get_proxy($mpid,$openid);
                             $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=search_temai_by_key_proxy';
                            \Think\Log::write($data['kw'],'WARN');
+                           ldh_log($data,"aa.php");
                             reply_text($this->http_post_content($url,$data));
 
                         }
