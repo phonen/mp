@@ -215,7 +215,7 @@ class RespondController extends ApiController {
 
         // 非utf8编码时转码
         if($charset != 'utf-8'){
-            $file_contents = iconv(strtoupper($charset), "UTF-8//TRANSLIT//IGNORE", $file_contents);
+            $file_contents = iconv(strtoupper($charset), "UTF-8", $file_contents);
         }
         // 将结果记录到session中，方便下次直接读取
         $_SESSION[$key] = $file_contents;
