@@ -948,7 +948,7 @@ function pagination($count, $per = 10, $params = array()) {
 function get_addon() {
     preg_match('/\/addon\/([^\/]+)/', '/'.$_SERVER['PATH_INFO'], $m);
     if (!$m[1]) {
-        return "Cms";
+        return false;
     }
     return $m[1];
 }
