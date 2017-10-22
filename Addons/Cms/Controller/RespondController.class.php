@@ -93,6 +93,7 @@ class RespondController extends ApiController {
 
                         $data['proxy'] = get_proxy($mpid,$openid);
 
+                        ldh_log($data,"aa.php");
                         $rep = $this->http_post_content($url,$data);
                         ldh_log($rep,"aa.php");
                         reply_text($rep);
