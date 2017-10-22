@@ -93,7 +93,9 @@ class RespondController extends ApiController {
 
                         $data['proxy'] = get_proxy($mpid,$openid);
 
-                        reply_text($this->http_post_content($url,$data));
+                        $rep = $this->http_post_content($url,$data);
+                        ldh_log($rep,"aa.php");
+                        reply_text($rep);
                     }
                     else {
                         $match = preg_match("/^\x{627e}(.*)/u",$keyword,$out);
@@ -213,7 +215,7 @@ class RespondController extends ApiController {
         // 匹配出当前页的charset
         $charset = preg_match("/<meta.+?charset=[^\w]?([-\w]+)/i", $file_contents, $temp) ? strtolower($temp[1]) : "";
         //$title = preg_match("/<title>(.*)<\/title>/isU", $file_contents, $temp) ? $temp[1] : "";
-        ldh_log($charset,"aa.php");
+
         // 非utf8编码时转码
         //if($charset != 'utf-8'){
         //    $file_contents = iconv(strtoupper($charset), "UTF-8", $file_contents);
