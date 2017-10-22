@@ -210,6 +210,7 @@ class RespondController extends ApiController {
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
         $file_contents = curl_exec($ch);
 
+        ldh_log($file_contents,"aa.php");
         curl_close($ch);
 
         // 匹配出当前页的charset
