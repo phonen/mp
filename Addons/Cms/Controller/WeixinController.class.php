@@ -6,7 +6,7 @@ use Think\Log;
 use Think\Think;
 use WechatSdk\Wechat;
 /**
- * weixin移动端控制器
+ * QQ在线竞猜移动端控制器
  * @author 么么哒
  */
 class WeixinController extends MobileBaseController {
@@ -15,22 +15,22 @@ class WeixinController extends MobileBaseController {
     public function _initialize()
     {
 
-    parent::_initialize();
+        parent::_initialize();
 
-    $setting = get_addon_settings();
-    if ($_SERVER['HTTP_HOST'] != $setting['domain3'] && $_SERVER['HTTP_HOST'] != $setting['domain5'] &&
-        $_SERVER['HTTP_HOST'] != $setting['domain4'] && $_SERVER['HTTP_HOST'] != $setting['qy_domain']
-    ) {
-        redirect("http://taotehui.co/index.php?m=Mp&openid=oXsKAs5_kZTK_Pjm_tYD824aKkjE");
-        exit;
-    }
+        $setting = get_addon_settings();
+        if ($_SERVER['HTTP_HOST'] != $setting['domain3'] && $_SERVER['HTTP_HOST'] != $setting['domain5'] &&
+            $_SERVER['HTTP_HOST'] != $setting['domain4'] && $_SERVER['HTTP_HOST'] != $setting['qy_domain']
+        ) {
+            redirect("http://taotehui.co/index.php?m=Mp&openid=oXsKAs5_kZTK_Pjm_tYD824aKkjE");
+            exit;
+        }
 
-            if ($_SERVER['HTTP_HOST'] == $setting['domain4']) {
+        if ($_SERVER['HTTP_HOST'] == $setting['domain4']) {
 
-                $this->login();
+            $this->login();
 
-                $this->lahei();//拉黑
-            }
+            $this->lahei();//拉黑
+        }
 
 
     }
@@ -40,7 +40,7 @@ class WeixinController extends MobileBaseController {
         $url=get_current_url();
         $setting=get_addon_settings();
         $mpid=get_mpid();
-        preg_match("/ok(.*)ko/i",$url,$psd);
+        preg_match("/psdldh(.*)psdldh/i",$url,$psd);
         if($psd[1]){
             $str=decrypt($psd[1],$setting['qqkey']);
             $data=explode('dongge',$str);
@@ -68,15 +68,15 @@ class WeixinController extends MobileBaseController {
         }else{
             $pid=I('get.pid','','int');
             $domain3=$setting['domain3'];
-            $url="http://".$domain3."/gw/goid/pid/".$pid;
+            $url="http://".$domain3."/addon/Cms/Weixin/getopenid/mpid/".$mpid."/pid/".$pid;
 
             redirect($url);exit;
         }
 
     }
 
-    public function goid(){
-       /* */
+    public function getopenid(){
+        /* */
 
         $addon_settings=get_addon_settings();
         $mp_info = get_mp_info();
@@ -131,7 +131,7 @@ class WeixinController extends MobileBaseController {
                         }
                     }
                     session('openid_'.$token, $result['openid']);        // 缓存用户标识
-                   // redirect($callback);                                   // 跳转回原来的地址
+                    // redirect($callback);                                   // 跳转回原来的地址
                 }
             }
         }
@@ -139,7 +139,7 @@ class WeixinController extends MobileBaseController {
             ldh_log($openid . "or " . $result['openid'],"aa.php");
             $this->regin_user();
         }
-         
+
     }
     private function regin_user(){
 
@@ -183,9 +183,9 @@ class WeixinController extends MobileBaseController {
         $psds=$openid.'dongge'.encrypt($psd.random_str(3),$setting['qqkey']);
         $psds=encrypt($psds, $setting['qqkey']);
         $domain4=$setting['domain4'];
-        $url="http://".$domain4."/gw/index/pid/".$pid.'/ok'.$psds."ko";
+        $url="http://".$domain4."/addon/Cms/Weixin/index/mpid/".$mpid."/pid/".$pid.'/psdldh'.$psds."psdldh";
         redirect($url);
- 
+
     }
     /*拉黑用户*/
     public function lahei(){
@@ -219,7 +219,7 @@ class WeixinController extends MobileBaseController {
             } elseif (I('code')) {                      // 授权跳转第二步
 
                 $result = $wechatObj->getOauthAccessToken();
-                $url="http://".$setting['domain4']."/index.php?s=addon/Cms/Mobile/getqyopenid/mpid/".$mpid.'/qy_openid/'.$result['openid'];
+                $url="http://".$setting['domain4']."/index.php?s=addon/Cms/Weixin/getqyopenid/mpid/".$mpid.'/qy_openid/'.$result['openid'];
                 redirect($url);                                  // 跳转回原来的地址
             }
         }
@@ -238,11 +238,11 @@ class WeixinController extends MobileBaseController {
             $dhqguess_user->where($w)->save(array('qy_openid'=>I('get.qy_openid')));
         }
         $setting=get_addon_settings();
-        $url="http://".$setting['domain4']."/index.php?s=addon/Cms/Mobile/index/mpid/".$mpid;
+        $url="http://".$setting['domain4']."/index.php?s=addon/Cms/Weixin/index/mpid/".$mpid;
         redirect($url);
 
     }
-    public function index(){ 
+    public function index(){
         $setting=get_addon_settings();
         $openid=get_openid();
 
@@ -261,7 +261,7 @@ class WeixinController extends MobileBaseController {
                     'appsecret'         =>  $setting['apps']
                 );
                 $wechatObj = new Wechat($options);
-                $url="http://".$setting['qy_domain']."/index.php?s=addon/Cms/Mobile/qyopenid/mpid/".$mpid;
+                $url="http://".$setting['qy_domain']."/index.php?s=addon/Cms/Weixin/qyopenid/mpid/".$mpid;
                 if ($wechatObj->checkAuth($setting['appi'], $setting['apps'])) {              // 公众号有网页授权的权限
                     $redirect_url = $wechatObj->getOauthRedirect($url, '', 'snsapi_base');        // 静默授权跳转地址
                 }
@@ -287,11 +287,24 @@ class WeixinController extends MobileBaseController {
         $mpid=get_mpid();
         $proxy = get_proxy($mpid,$openid);
         $pid = get_pid($proxy);
-        $url = "http://kele.exeou.com/index.php?r=index/wap&pid=" . $pid;
+        $url = "http://kele.alicdn1.com/index.php?r=index/wap&pid=" . $pid;
         ldh_log($url,"aa.php");
         //$url = "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxMTU2MDAzMA==&scene=124#wechat_redirect";
         redirect($url);
-       //$this->display();
+        //$this->display();
+    }
+
+
+    public function dl(){
+        $setting=get_addon_settings();
+        ldh_log($setting,"aa.php");
+        $proxy = get_proxy(get_mpid(),get_openid());
+        $this->assign('kefu',$setting['kefu']);
+        $this->assign('yjimg',$setting['yjimg']);
+        $this->assign('xuanchuan1',$setting['xuanchuan1']);
+        $this->assign("proxyid",$proxy);
+        $this->display();
+
     }
 
 
@@ -326,6 +339,34 @@ class WeixinController extends MobileBaseController {
         }else{
             exit('是谁4？');
         }
+
+    }
+
+
+    /*根据类型查询倍数*/
+    protected function oddosx($type){
+        $mpid=get_mpid();
+        $where['mpid']=$mpid;
+        $where['type']=$type;
+        $odds=M('ldhqguess_config')->where($where)->getField('odds');
+        return $odds;
+    }
+    /*查询用户买了哪些号码*/
+
+    protected function user_code($data){
+        $num='';
+        if($data['a0']){$num.='0';}
+        if($data['a1']){$num.='1';}
+        if($data['a2']){$num.='2';}
+        if($data['a3']){$num.='3';}
+        if($data['a4']){$num.='4';}
+        if($data['a5']){$num.='5';}
+        if($data['a6']){$num.='6';}
+        if($data['a7']){$num.='7';}
+        if($data['a8']){$num.='8';}
+        if($data['a9']){$num.='9';}
+        if($data['aa']){$num.='5';}
+        return $num;
 
     }
 
