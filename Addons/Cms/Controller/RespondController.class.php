@@ -101,6 +101,8 @@ class RespondController extends ApiController {
                     else {
                         $match = preg_match("/^\x{627e}(.*)/u",$keyword,$out);
                         if($match){
+                            reply_text("淘宝问题，查找无佣金");
+                            exit();
                             $data['kw'] = $out[1];
                             $data['proxy'] = get_proxy($mpid,$openid);
                             $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=search_temai_by_key_proxy';
