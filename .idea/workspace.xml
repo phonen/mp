@@ -69,18 +69,18 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25542">
+            <state relative-caret-position="34056">
               <caret line="947" column="19" lean-forward="false" selection-start-line="947" selection-start-column="0" selection-end-line="947" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RespondController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="104" column="35" lean-forward="false" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
+            <state relative-caret-position="828">
+              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -96,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeixinController.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WeixinController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/WeixinController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="-1908">
               <caret line="263" column="83" lean-forward="false" selection-start-line="263" selection-start-column="83" selection-end-line="263" selection-end-column="83" />
               <folding>
                 <element signature="e#40#79#0#PHP" expanded="true" />
@@ -111,8 +111,8 @@
       <file leaf-file-name="ApiBaseController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Wxapp/Controller/ApiBaseController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="1152">
+              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -131,7 +131,7 @@
       <file leaf-file-name="BaseController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Mp/Controller/BaseController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
+            <state relative-caret-position="1188">
               <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
               <folding />
             </state>
@@ -141,7 +141,7 @@
       <file leaf-file-name="ApiController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Mp/Controller/ApiController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10746">
+            <state relative-caret-position="14328">
               <caret line="399" column="5" lean-forward="false" selection-start-line="399" selection-start-column="5" selection-end-line="399" selection-end-column="5" />
               <folding />
             </state>
@@ -151,7 +151,7 @@
       <file leaf-file-name="MobileController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4914">
+            <state relative-caret-position="6552">
               <caret line="185" column="50" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="374" selection-end-column="2" />
               <folding />
             </state>
@@ -161,7 +161,7 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="612">
               <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
               <folding />
             </state>
@@ -179,7 +179,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>checkAuth</find>
       <find>function checkAuth</find>
       <find>get_mpid</find>
       <find>session</find>
@@ -209,12 +208,14 @@
       <find>function get_mpid</find>
       <find>get_mp_info</find>
       <find>function get_addon(</find>
+      <find>taotehui.co</find>
     </findStrings>
     <replaceStrings>
       <replace>cms</replace>
       <replace>;</replace>
       <replace>$proxy</replace>
       <replace>Cms</replace>
+      <replace>taotehui.com.cn</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -271,10 +272,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="2182" />
-    <option name="height" value="1416" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="2186" />
+    <option name="height" value="1406" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -291,7 +292,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -523,6 +523,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -670,14 +671,13 @@
       <workItem from="1510457727476" duration="992000" />
       <workItem from="1510627799417" duration="23000" />
       <workItem from="1510710553697" duration="1231000" />
-      <workItem from="1512433127558" duration="103000" />
-    </task>
-    <task id="LOCAL-00075" summary="1">
-      <created>1505482649571</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1505482649572</updated>
+      <workItem from="1512433127558" duration="754000" />
+      <workItem from="1514274105209" duration="150000" />
+      <workItem from="1515483266592" duration="333000" />
+      <workItem from="1521337735175" duration="77000" />
+      <workItem from="1523608007486" duration="1135000" />
+      <workItem from="1523837768278" duration="14000" />
+      <workItem from="1523947042269" duration="92000" />
     </task>
     <task id="LOCAL-00076" summary="1">
       <created>1505483116568</created>
@@ -1015,14 +1015,21 @@
       <option name="project" value="LOCAL" />
       <updated>1509588075795</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="1">
+      <created>1512433279116</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1512433279118</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179962000" />
+    <option name="totallyTimeSpent" value="182414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="2182" height="1416" extended-state="6" />
+    <frame x="-13" y="-13" width="2186" height="1406" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20185184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1320,7 +1327,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Common/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="612">
           <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           <folding />
         </state>
@@ -1336,7 +1343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Common/Common/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25542">
+        <state relative-caret-position="34056">
           <caret line="947" column="19" lean-forward="false" selection-start-line="947" selection-start-column="0" selection-end-line="947" selection-end-column="19" />
           <folding />
         </state>
@@ -1344,7 +1351,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/MobileController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4914">
+        <state relative-caret-position="6552">
           <caret line="185" column="50" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="374" selection-end-column="2" />
           <folding />
         </state>
@@ -1352,7 +1359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Mp/Controller/BaseController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
+        <state relative-caret-position="1188">
           <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
           <folding />
         </state>
@@ -1360,7 +1367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Mp/Controller/ApiController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10746">
+        <state relative-caret-position="14328">
           <caret line="399" column="5" lean-forward="false" selection-start-line="399" selection-start-column="5" selection-end-line="399" selection-end-column="5" />
           <folding />
         </state>
@@ -1370,7 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,6 +1402,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/Wxapp/Controller/ApiBaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/Wxapp/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1404,29 +1426,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Wxapp/Controller/ApiBaseController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/WeixinController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
+        <state relative-caret-position="-1908">
           <caret line="263" column="83" lean-forward="false" selection-start-line="263" selection-start-column="83" selection-end-line="263" selection-end-column="83" />
           <folding>
             <element signature="e#40#79#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addons/Cms/Controller/RespondController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="104" column="35" lean-forward="false" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>

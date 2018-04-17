@@ -21,7 +21,7 @@ class RespondController extends ApiController {
         $pt = "/\*(\d{16,17})/";
         $match = preg_match($pt,$keyword);
         if($match){
-            $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=order_json';
+            $url = 'http://taotehui.com.cn/?g=Tbkqq&m=WxAi&a=order_json';
             $data['oid'] = substr($keyword,1);
 
             reply_text($this->http_post_content($url,$data));
@@ -77,7 +77,7 @@ class RespondController extends ApiController {
 
 
 
-                    $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=taoke_info_proxy';
+                    $url = 'http://taotehui.com.cn/?g=Tbkqq&m=WxAi&a=taoke_info_proxy';
                     $data['msg'] = $item_url;
                     $data['proxy'] = get_proxy($mpid,$openid);
 
@@ -88,7 +88,7 @@ class RespondController extends ApiController {
                     $match = preg_match('/https?:\/\/[\w=.?&\/;%]+/',$keyword,$out);
                     if($match){
 
-                        $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=taoke_info_proxy';
+                        $url = 'http://taotehui.com.cn/?g=Tbkqq&m=WxAi&a=taoke_info_proxy';
                         $data['msg'] = $out[0];
 
                         $data['proxy'] = get_proxy($mpid,$openid);
@@ -105,7 +105,7 @@ class RespondController extends ApiController {
                             exit();
                             $data['kw'] = $out[1];
                             $data['proxy'] = get_proxy($mpid,$openid);
-                            $url = 'http://taotehui.co/?g=Tbkqq&m=WxAi&a=search_temai_by_key_proxy';
+                            $url = 'http://taotehui.com.cn/?g=Tbkqq&m=WxAi&a=search_temai_by_key_proxy';
                             $rep = $this->http_post_content($url,$data);
                            ldh_log($rep,"aa.php");
                             reply_text($rep);

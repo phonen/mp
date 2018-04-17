@@ -1,5 +1,5 @@
 <?php 
-namespace Mp\Controller;
+namespace Wxapp\Controller;
 use Think\Controller;
 
 /**
